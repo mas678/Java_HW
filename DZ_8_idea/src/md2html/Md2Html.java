@@ -3,6 +3,7 @@ package md2html;
 import ForParser.Parsing;
 
 import java.io.*;
+import java.lang.reflect.InvocationTargetException;
 
 public class Md2Html {
     public static void main(String[] args) {
@@ -16,6 +17,9 @@ public class Md2Html {
             return;
         } catch (IOException e) {
             System.err.println("IOException " + e.getMessage());
+            return;
+        } catch (InstantiationException | NoSuchMethodException | IllegalAccessException | InvocationTargetException e) {
+            e.printStackTrace();
             return;
         }
         try (BufferedWriter out = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(args[1]), "utf8"))) {

@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1778c0ca-ae7e-4809-893b-8a2052067fed" name="Default Changelist" comment="" />
+    <list default="true" id="1778c0ca-ae7e-4809-893b-8a2052067fed" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../A/A.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DZ_4IDEA/DZ_4IDEA.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DZ_5IDEA/DZ_5IDEA.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DZ_6_idea/DZ_6_idea.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DZ_7_idea/DZ_7_idea.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/markup/Link.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/markup/Underline.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICPC/A/A.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICPC/B/B.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICPC/C/C.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICPC/DZ8_Idea/DZ8_Idea.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICPC/E/E.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DZ_8_idea/ForParser/MarkdownTags.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DZ_8_idea/ForParser/Parsing.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DZ_8_idea/ForParser/Parsing.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DZ_8_idea/md2html/Md2Html.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DZ_8_idea/md2html/Md2Html.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ForParser/MarkdownTags.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ForParser/Parsing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ForParser/Parsing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/md2html/Md2Html.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/md2html/Md2Html.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +39,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1TR6rQPvKUMyCkYGfjDUVu2T7X5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -51,7 +80,7 @@
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="md2html.Md2Html" />
       <module name="DZ_8_idea" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="PROGRAM_PARAMETERS" value="input.txt output.txt" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method v="2">
@@ -77,11 +106,27 @@
       <workItem from="1573410762210" duration="18514000" />
       <workItem from="1573470725589" duration="6224000" />
       <workItem from="1573494102150" duration="1578000" />
-      <workItem from="1573508047025" duration="10713000" />
+      <workItem from="1573508047025" duration="11210000" />
+      <workItem from="1573552891061" duration="7071000" />
+      <workItem from="1573566585945" duration="297000" />
+      <workItem from="1573684566653" duration="863000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
