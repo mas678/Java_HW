@@ -2,28 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1778c0ca-ae7e-4809-893b-8a2052067fed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../A/A.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DZ_4IDEA/DZ_4IDEA.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DZ_5IDEA/DZ_5IDEA.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DZ_6_idea/DZ_6_idea.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DZ_7_idea/DZ_7_idea.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/markup/Link.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/markup/Underline.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ICPC/A/A.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ICPC/B/B.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ICPC/C/C.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ICPC/DZ8_Idea/DZ8_Idea.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ICPC/E/E.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DZ_8_idea/ForParser/MarkdownTags.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/DZ_8_idea/ForParser/Parsing.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DZ_8_idea/ForParser/Parsing.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DZ_8_idea/markup/Text.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DZ_8_idea/markup/Text.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/DZ_8_idea/md2html/Md2Html.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DZ_8_idea/md2html/Md2Html.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ForParser/MarkdownTags.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ForParser/Booking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ForParser/Booking.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ForParser/Parsing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ForParser/Parsing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/markup/Text.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/markup/Text.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/md2html/Md2Html.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/md2html/Md2Html.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,6 +23,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -55,6 +43,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -109,7 +98,16 @@
       <workItem from="1573508047025" duration="11210000" />
       <workItem from="1573552891061" duration="7071000" />
       <workItem from="1573566585945" duration="297000" />
-      <workItem from="1573684566653" duration="863000" />
+      <workItem from="1573684566653" duration="1640000" />
+      <workItem from="1574026043659" duration="2697000" />
+      <workItem from="1574171849840" duration="7134000" />
+      <workItem from="1574643435317" duration="693000" />
+      <workItem from="1574716556543" duration="2985000" />
+      <workItem from="1574763613582" duration="1126000" />
+      <workItem from="1574775906451" duration="4530000" />
+      <workItem from="1574788879977" duration="634000" />
+      <workItem from="1575123309277" duration="676000" />
+      <workItem from="1575134791252" duration="295000" />
     </task>
     <servers />
   </component>

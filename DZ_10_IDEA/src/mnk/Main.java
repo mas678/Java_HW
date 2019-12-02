@@ -8,7 +8,7 @@ public class Main {
         final List<Player> PLAYERS_LIST = List.of(new RandomPlayer(), new RandomPlayer(),
                 new RandomPlayer(), new HumanPlayer());
         do {
-            result = new MnkBoard(PLAYERS_LIST.size()).game(PLAYERS_LIST);
+            result = new MnkBoard().game(PLAYERS_LIST);
             System.out.println("Game result: " + result);
         } while (result != 0);
     }

@@ -1,4 +1,9 @@
 package ForParser;
 
-public interface Booking {
+import markup.ForParagraph;
+
+import java.util.List;
+
+interface Booking {
+    ForParagraph create(List<ForParagraph> children);
 }

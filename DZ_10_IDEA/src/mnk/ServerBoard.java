@@ -1,6 +1,7 @@
 package mnk;
 
 import java.util.Arrays;
+import java.util.List;
 import java.util.Map;
 
 public class ServerBoard implements Board, Position {
@@ -12,27 +13,25 @@ public class ServerBoard implements Board, Position {
             Cell.S, '-'
     );
 
-    private static final Map<Integer, Cell> NEXT = Map.of(
-            1, Cell.X,
-            2, Cell.O,
-            3, Cell.I,
-            4, Cell.S
+    private static final List<Cell> NEXT = List.of(
+            Cell.X,
+            Cell.O,
+            Cell.I,
+            Cell.S
     );
 
 
     private final Cell[][] cells;
     private Cell turn;
     private int emptyCnt;
-    private int playersCnt;
 
-    public ServerBoard(int playersCnt) {
+    ServerBoard() {
         this.cells = new Cell[MnkConst.N][MnkConst.M];
         for (Cell[] row : cells) {
             Arrays.fill(row, Cell.E);
         }
         turn = Cell.X;
         emptyCnt = MnkConst.M * MnkConst.N;
-        this.playersCnt = playersCnt;
     }
 
     @Override
@@ -46,7 +45,7 @@ public class ServerBoard implements Board, Position {
     }
 
     @Override
-    public Result makeMove(final Move move, int no) {
+    public Result makeMove(final Move move, int nxt) {
         if (!isValid(move)) {
             return Result.LOSE;
         }
@@ -61,7 +60,7 @@ public class ServerBoard implements Board, Position {
             return Result.DRAW;
         }
 
-        turn = NEXT.get(no % playersCnt + 1);
+        turn = NEXT.get(nxt - 1);
         return Result.UNKNOWN;
     }
 

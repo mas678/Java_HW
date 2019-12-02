@@ -1,7 +1,10 @@
 package markup;
 
+import java.util.Map;
+
 public class Text implements ForParagraph{
     private String myString;
+    private final Map<Character, String> html = Map.of('>', "&gt;", '<', "&lt;", '&', "&amp;");
 
     public Text(String yourString) {
         myString = yourString;
@@ -16,18 +19,11 @@ public class Text implements ForParagraph{
     public void toHtml(StringBuilder htmlAns) {
         for (int i = 0; i < myString.length(); i++) {
             char c = myString.charAt(i);
-            if (c == '>' || c == '<' || c == '&') {
-                if (c == '>') {
-                    htmlAns.append("&gt;");
-                } else if (c == '<') {
-                    htmlAns.append("&lt;");
-                } else {
-                    htmlAns.append("&amp;");
-                }
+            if (html.containsKey(c)) {
+                htmlAns.append(html.get(c));
             } else {
                 htmlAns.append(c);
             }
-
         }
     }
 }

@@ -5,8 +5,8 @@ import java.util.List;
 public class MnkBoard implements Position {
     private ServerBoard trueBoard;
 
-    public MnkBoard(int playersCnt) {
-        trueBoard = new ServerBoard(playersCnt);
+    public MnkBoard() {
+        trueBoard = new ServerBoard();
     }
 
     public int game(List<Player> PLAYERS_LIST) {

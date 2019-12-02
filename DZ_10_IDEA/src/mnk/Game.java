@@ -24,7 +24,7 @@ public class Game {
 
     private int move(final Board board, final Player player, final int no) {
         final Move move = player.move(board.getPosition(), board.getCell());
-        final Result result = board.makeMove(move, no);
+        final Result result = board.makeMove(move, no % players.size() + 1);
         log("Player " + no + " move: " + move);
         log("Position:\n" + board);
         if (result == Result.WIN) {
