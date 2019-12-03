@@ -2,16 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1778c0ca-ae7e-4809-893b-8a2052067fed" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../DZ_idea_11/src/base/Asserts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DZ_idea_11/src/base/MainChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DZ_idea_11/src/base/MainFilesChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DZ_idea_11/src/base/MainStdChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DZ_idea_11/src/base/Pair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DZ_idea_11/src/base/Randomized.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DZ_idea_11/src/base/TestCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DZ_idea_11/src/expression/Add.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DZ_idea_11/src/expression/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DZ_idea_11/src/expression/BinaryOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DZ_idea_11/src/expression/Const.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DZ_idea_11/src/expression/Divide.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DZ_idea_11/src/expression/Expression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DZ_idea_11/src/expression/ExpressionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DZ_idea_11/src/expression/FullExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DZ_idea_11/src/expression/Multiply.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DZ_idea_11/src/expression/Subtract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DZ_idea_11/src/expression/Symbols.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DZ_idea_11/src/expression/ToMiniString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DZ_idea_11/src/expression/TripleExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DZ_idea_11/src/expression/TripleExpressionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DZ_idea_11/src/expression/Variable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DZ_10_IDEA/out/production/DZ_10_IDEA/mnk/HumanPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DZ_10_IDEA/out/production/DZ_10_IDEA/mnk/HumanPlayer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DZ_10_IDEA/out/production/DZ_10_IDEA/mnk/ServerBoard.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DZ_10_IDEA/out/production/DZ_10_IDEA/mnk/ServerBoard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DZ_10_IDEA/src/mnk/HumanPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DZ_10_IDEA/src/mnk/HumanPlayer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DZ_8_idea/ForParser/Parsing.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DZ_8_idea/ForParser/Parsing.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DZ_8_idea/markup/Text.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DZ_8_idea/markup/Text.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DZ_8_idea/md2html/Md2Html.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DZ_8_idea/md2html/Md2Html.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ForParser/Booking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ForParser/Booking.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ForParser/Parsing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ForParser/Parsing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/markup/Text.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/markup/Text.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/md2html/Md2Html.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/md2html/Md2Html.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DZ_idea_11/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DZ_idea_11/src/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +55,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DZ_10_IDEA" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -50,6 +69,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\3-q3\Desktop\Korneev\DZ\DZ_8_idea\src" />
       <recent name="C:\Users\3-q3\Desktop\Korneev\DZ\DZ_8_idea" />
     </key>
   </component>
@@ -108,6 +128,9 @@
       <workItem from="1574788879977" duration="634000" />
       <workItem from="1575123309277" duration="676000" />
       <workItem from="1575134791252" duration="295000" />
+      <workItem from="1575321663475" duration="2563000" />
+      <workItem from="1575330723211" duration="658000" />
+      <workItem from="1575382215530" duration="3938000" />
     </task>
     <servers />
   </component>

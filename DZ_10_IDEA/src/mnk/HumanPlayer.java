@@ -33,8 +33,8 @@ public class HumanPlayer implements Player {
                     f = false;
                 }
             }
+            in.nextLine();
             if (f) {
-                in.nextLine();
                 out.println("Input is incorrect");
                 continue;
             }

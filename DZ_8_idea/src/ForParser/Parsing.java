@@ -14,13 +14,6 @@ public class Parsing {
     private ArrayList<TextElement> afterPars = new ArrayList<>();
     private final Set<String> noneOne = Set.of("[");
 
-    private static final Map<String, Booking> HELLOS = Map.of("__", new Booking() {
-        @Override
-        public ForParagraph create(List<ForParagraph> children) {
-            return new Strong(children);
-        }
-    });
-
     private final Map <String, String> negative = Map.of(
             "++", "++",
             "--", "--",
@@ -33,16 +26,8 @@ public class Parsing {
             "`", "`"
     );
     private final Map<String, Booking> markdownTags = Map.of(
-            "++", new Booking() {
-                @Override
-                public ForParagraph create(List<ForParagraph> children) { return new Underline(children); }
-            },
-            "--", new Booking() {
-                @Override
-                public ForParagraph create(List<ForParagraph> children) {
-                    return new Strikeout(children);
-                }
-            },
+            "++", Underline::new,
+            "--", Strikeout::new,
             "*", new Booking() {
                 @Override
                 public ForParagraph create(List<ForParagraph> children) {
@@ -81,24 +66,24 @@ public class Parsing {
 
     public static List<String> splitParagraphs(BufferedReader in) throws IOException {
         List<String> paragraphs = new ArrayList<>();
-        StringBuilder ans = new StringBuilder();
-        String s = in.readLine();
-        while (s != null) {
-            if (s.isBlank()) {
-                if (ans.length() != 0) {
-                    paragraphs.add(ans.toString());
-                    ans = new StringBuilder();
+        StringBuilder paragraph = new StringBuilder();
+        String line = in.readLine();
+        while (line != null) {
+            if (line.isBlank()) {
+                if (paragraph.length() != 0) {
+                    paragraphs.add(paragraph.toString());
+                    paragraph.setLength(0);
                 }
             } else {
-                if (ans.length() != 0) {
-                    ans.append("\n");
+                if (paragraph.length() != 0) {
+                    paragraph.append("\n");
                 }
-                ans.append(s);
+                paragraph.append(line);
             }
-            s = in.readLine();
+            line = in.readLine();
         }
-        if (ans.length() != 0) {
-            paragraphs.add(ans.toString());
+        if (paragraph.length() != 0) {
+            paragraphs.add(paragraph.toString());
         }
         return paragraphs;
     }
@@ -120,7 +105,9 @@ public class Parsing {
 
     private TextElement fromMarkdown(String paragraph) {
         int ind = 0;
-        while (ind != paragraph.length() && paragraph.charAt(ind) == '#') {ind++;}
+        while (ind != paragraph.length() && paragraph.charAt(ind) == '#') {
+            ind++;
+        }
         if (ind != paragraph.length() && ind != 0 && Character.isWhitespace(paragraph.charAt(ind))) {
             return new Header(oneMarkdownElement(paragraph, (ind + 1), paragraph.length()), ind);
         }
@@ -138,31 +125,32 @@ public class Parsing {
                 }
                 continue;
             }
+
             String s = element.substring(i, i + 1);
             if (i + 1 != element.length() && markdownTags.containsKey(element.substring(i, i + 2))) {
                 s = element.substring(i, i + 2);
             }
+
             if (markdownTags.containsKey(s)) {
                 int g = find(element, i + s.length(), end, negative.get(s));
-                if (g != -1) {
+                int gEnd = g;
+                if (noneOne.contains(s)) {
+                    gEnd = find(element, g + 2, end, negative.get(negative.get(s)));
+                }
+
+                if (g != -1 && gEnd != -1) {
                     List<ForParagraph> tempList = oneMarkdownElement(element, i + s.length(), g);
-                    int g1 = g;
-                    if (noneOne.contains(s)) {
-                        g1 = find(element, g + 2, end, negative.get(negative.get(s)));
-                        if (g1 == -1) {
-                            fromMark.append(element.charAt(i));
-                            continue;
-                        }
-                        tempList.add(new Text(element.substring(g + negative.get(s).length(), g1)));
+                    if (g != gEnd) {
+                        tempList.add(new Text(element.substring(g + negative.get(s).length(), gEnd)));
                     }
-                    i = g1 + s.length() - 1;
+                    i = gEnd + s.length() - 1;
                     helping.add(new Text(fromMark.toString()));
                     helping.add(markdownTags.get(s).create(tempList));
                     fromMark = new StringBuilder();
-                    continue;
                 }
+            } else {
+                fromMark.append(element.charAt(i));
             }
-            fromMark.append(element.charAt(i));
         }
         helping.add(new Text(fromMark.toString()));
         return helping;
@@ -175,7 +163,8 @@ public class Parsing {
                 continue;
             }
             if (subElement.substring(i, i + quest.length()).equals(quest)) {
-                if (i + quest.length() + 1 < end && (negative.containsValue(subElement.substring(i, i + quest.length() + 1)))) {
+                if (i + quest.length() + 1 < end && (negative
+                        .containsValue(subElement.substring(i, i + quest.length() + 1)))) {
                     i += quest.length();
                     continue;
                 }
