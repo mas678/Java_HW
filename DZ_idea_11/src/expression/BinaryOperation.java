@@ -76,8 +76,7 @@ public abstract class BinaryOperation implements FullExpression, BinaryFunction 
         if (obj != null && obj.getClass() == getClass()) {
             BinaryOperation tmp = (BinaryOperation) obj;
             return firstExpression.equals(tmp.firstExpression)
-                    && secondExpression.equals(tmp.secondExpression)
-                    && symbol.equals(tmp.symbol);
+                    && secondExpression.equals(tmp.secondExpression);
         }
         return false;
     }

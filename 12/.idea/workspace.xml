@@ -49,6 +49,11 @@
       <change afterPath="$PROJECT_DIR$/src/expression/parser/ParserTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/expression/parser/StringSource.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../DZ_idea_11/src/expression/BinaryFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DZ_10_IDEA/out/production/DZ_10_IDEA/mnk/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DZ_10_IDEA/out/production/DZ_10_IDEA/mnk/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DZ_10_IDEA/out/production/DZ_10_IDEA/mnk/MnkBoard.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DZ_10_IDEA/out/production/DZ_10_IDEA/mnk/MnkBoard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DZ_10_IDEA/out/production/DZ_10_IDEA/mnk/MnkConst.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DZ_10_IDEA/out/production/DZ_10_IDEA/mnk/MnkConst.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DZ_10_IDEA/out/production/DZ_10_IDEA/mnk/RandomPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DZ_10_IDEA/out/production/DZ_10_IDEA/mnk/RandomPlayer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DZ_10_IDEA/out/production/DZ_10_IDEA/mnk/SequentialPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DZ_10_IDEA/out/production/DZ_10_IDEA/mnk/SequentialPlayer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DZ_10_IDEA/out/production/DZ_10_IDEA/mnk/ServerBoard.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DZ_10_IDEA/out/production/DZ_10_IDEA/mnk/ServerBoard.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DZ_10_IDEA/src/mnk/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DZ_10_IDEA/src/mnk/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DZ_10_IDEA/src/mnk/MnkBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DZ_10_IDEA/src/mnk/MnkBoard.java" afterDir="false" />
@@ -151,7 +156,7 @@
       <option name="presentableId" value="Default" />
       <updated>1575930352507</updated>
       <workItem from="1575930366289" duration="40000" />
-      <workItem from="1575930442314" duration="23737000" />
+      <workItem from="1575930442314" duration="24426000" />
     </task>
     <servers />
   </component>
