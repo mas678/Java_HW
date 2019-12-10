@@ -1,8 +1,8 @@
 package expression;
 
 public class Subtract extends BinaryOperation {
-    public Subtract(FullExpression firstExpression, FullExpression secondExpression) {
-        super(firstExpression, secondExpression, "-", true);
+    public Subtract(CommonExpression firstExpression, CommonExpression secondExpression) {
+        super(firstExpression, secondExpression, "-", true, 2);
     }
 
     @Override

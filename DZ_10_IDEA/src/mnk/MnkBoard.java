@@ -2,7 +2,7 @@ package mnk;
 
 import java.util.List;
 
-public class MnkBoard implements Position, Board {
+public class MnkBoard implements BoardAndPosition {
     private ServerBoard trueBoard;
 
     public MnkBoard() {
@@ -17,11 +17,6 @@ public class MnkBoard implements Position, Board {
     @Override
     public Cell getCell(int r, int c) {
         return trueBoard.getCell(r, c);
-    }
-
-    @Override
-    public Position getPosition() {
-        return this;
     }
 
     @Override

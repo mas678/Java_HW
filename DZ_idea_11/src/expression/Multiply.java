@@ -1,8 +1,8 @@
 package expression;
 
 public class Multiply extends BinaryOperation {
-    public Multiply(FullExpression firstExpression, FullExpression secondExpression) {
-        super(firstExpression, secondExpression, "*", false);
+    public Multiply(CommonExpression firstExpression, CommonExpression secondExpression) {
+        super(firstExpression, secondExpression, "*", false, 3);
     }
 
     @Override
@@ -18,7 +18,7 @@ public class Multiply extends BinaryOperation {
         bracketNeeding(into, secondExpression, true);
     }
 
-    private void bracketNeeding(StringBuilder into, FullExpression exp, boolean isSecond) {
+    private void bracketNeeding(StringBuilder into, CommonExpression exp, boolean isSecond) {
         String end = "";
         if (getLevel() > exp.getLevel() || (exp.getSymbol().equals("/")
                 || (order && getLevel() == exp.getLevel())) && isSecond)  {

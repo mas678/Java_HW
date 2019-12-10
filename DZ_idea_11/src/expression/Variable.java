@@ -3,7 +3,7 @@ package expression;
 import java.util.List;
 import java.util.Map;
 
-public class Variable implements FullExpression{
+public class Variable implements CommonExpression {
     private String var;
     static final Map<String, Integer> VARIABLES = Map.of(
             "x", 0,
@@ -22,7 +22,7 @@ public class Variable implements FullExpression{
 
     @Override
     public int getLevel() {
-        return Symbols.LEVEL.get("");
+        return 10;
     }
 
     @Override

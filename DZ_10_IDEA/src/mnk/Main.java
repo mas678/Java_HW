@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) {
         int result;
         final List<Player> playerList = List.of(new HumanPlayer(), new RandomPlayer(),
-                new RandomPlayer(), new HumanPlayer());
+                new RandomPlayer());
         do {
             Game game = new Game(false, playerList);
             result = game.play(new MnkBoard());

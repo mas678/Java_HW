@@ -6,10 +6,10 @@ import java.util.Map;
 
 public class ExpressionParser {
     public static FullExpression parse(final String source) {
-        return (FullExpression) parse(new StringSource(source));
+        return parse(new StringSource(source));
     }
 
-    public static Object parse(ExpressionSource source) {
+    public static FullExpression parse(ExpressionSource source) {
         return new ExpressionParseFull(source).parse();
     }
 

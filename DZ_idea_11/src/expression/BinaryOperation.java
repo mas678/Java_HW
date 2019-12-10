@@ -1,18 +1,18 @@
 package expression;
 
-import java.util.Set;
-
-public abstract class BinaryOperation implements FullExpression, BinaryFunction {
+public abstract class BinaryOperation implements CommonExpression, BinaryFunction {
     protected String symbol;
+    protected int level;
     protected boolean order;
-    protected FullExpression firstExpression;
-    protected FullExpression secondExpression;
+    protected CommonExpression firstExpression;
+    protected CommonExpression secondExpression;
 
-    public BinaryOperation (FullExpression firstExpression, FullExpression secondExpression,
-                            String symbol, boolean order) {
+    public BinaryOperation (CommonExpression firstExpression, CommonExpression secondExpression,
+                            String symbol, boolean order, int level) {
         this.firstExpression = firstExpression;
         this.secondExpression = secondExpression;
         this.symbol = symbol;
+        this.level = level;
         this.order = order;
     }
 
@@ -32,7 +32,7 @@ public abstract class BinaryOperation implements FullExpression, BinaryFunction 
         bracketNeeding(into, secondExpression, true);
     }
 
-    private void bracketNeeding(StringBuilder into, FullExpression exp, boolean isSecond) {
+    private void bracketNeeding(StringBuilder into, CommonExpression exp, boolean isSecond) {
         String end = "";
         if (getLevel() > exp.getLevel()
                 || (order && getLevel() == exp.getLevel() && isSecond))  {
@@ -63,7 +63,7 @@ public abstract class BinaryOperation implements FullExpression, BinaryFunction 
 
     @Override
     public int getLevel() {
-        return Symbols.LEVEL.get(symbol);
+        return level;
     }
 
     @Override
@@ -93,6 +93,6 @@ public abstract class BinaryOperation implements FullExpression, BinaryFunction 
 
     @Override
     public int hashCode() {
-        return 57 * firstExpression.hashCode() + 57 * 57 * secondExpression.hashCode() + symbol.hashCode();
+        return 57 * firstExpression.hashCode() + 57 * 57 * secondExpression.hashCode() + getClass().hashCode();
     }
 }

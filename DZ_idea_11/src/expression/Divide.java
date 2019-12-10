@@ -1,8 +1,8 @@
 package expression;
 
 public class Divide extends BinaryOperation {
-    public Divide(FullExpression firstExpression, FullExpression secondExpression) {
-        super(firstExpression, secondExpression, "/", true);
+    public Divide(CommonExpression firstExpression, CommonExpression secondExpression) {
+        super(firstExpression, secondExpression, "/", true, 3);
     }
 
     @Override

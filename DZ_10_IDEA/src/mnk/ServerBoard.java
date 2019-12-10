@@ -34,10 +34,6 @@ public class ServerBoard implements Board, Position {
         emptyCnt = MnkConst.M * MnkConst.N;
     }
 
-    @Override
-    public Position getPosition() {
-        return this;
-    }
 
     @Override
     public Cell getCell() {
@@ -46,9 +42,6 @@ public class ServerBoard implements Board, Position {
 
     @Override
     public Result makeMove(final Move move, int nxt) {
-        if (!isValid(move)) {
-            return Result.LOSE;
-        }
         cells[move.getRow()][move.getColumn()] = move.getValue();
         emptyCnt--;
 

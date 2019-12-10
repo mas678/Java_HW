@@ -11,7 +11,7 @@ public class Game {
         this.players = players;
     }
 
-    public int play(Board board) {
+    public int play(BoardAndPosition board) {
         while (true) {
             for (int i = 0; i < players.size(); i++) {
                 final int result = move(board, players.get(i), i + 1);
@@ -22,17 +22,14 @@ public class Game {
         }
     }
 
-    private int move(final Board board, final Player player, final int no) {
-        final Move move = player.move(board.getPosition(), board.getCell());
+    private int move(final BoardAndPosition board, final Player player, final int no) {
+        final Move move = player.move(board, board.getCell());
         final Result result = board.makeMove(move, no % players.size() + 1);
         log("Player " + no + " move: " + move);
         log("Position:\n" + board);
         if (result == Result.WIN) {
             log("Player " + no + " won");
             return no;
-        } else if (result == Result.LOSE) {
-            log("Player " + no + " lose");
-            return (no - 2 + players.size()) % players.size() + 1;
         } else if (result == Result.DRAW) {
             log("Draw");
             return 0;

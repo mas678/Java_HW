@@ -1,6 +1,6 @@
 package expression;
 
-public class Const implements FullExpression{
+public class Const implements CommonExpression {
     private Integer number;
 
     public Const (int number) {
@@ -14,7 +14,7 @@ public class Const implements FullExpression{
 
     @Override
     public int getLevel() {
-        return Symbols.LEVEL.get("");
+        return 10;
     }
 
     @Override
