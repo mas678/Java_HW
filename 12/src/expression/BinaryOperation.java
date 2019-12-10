@@ -1,7 +1,5 @@
 package expression;
 
-import java.util.Set;
-
 public abstract class BinaryOperation implements FullExpression, BinaryFunction {
     protected String symbol;
     protected boolean order;
@@ -34,8 +32,8 @@ public abstract class BinaryOperation implements FullExpression, BinaryFunction 
 
     private void bracketNeeding(StringBuilder into, FullExpression exp, boolean isSecond) {
         String end = "";
-        if (getLevel() > exp.getLevel()
-                || (order && getLevel() == exp.getLevel() && isSecond))  {
+        if (getLevel() > exp.getLevel() || ((symbol.equals("*") && exp.getSymbol().equals("/"))
+                || (order && getLevel() == exp.getLevel())) && isSecond)  {
             into.append('(');
             end = ")";
         }

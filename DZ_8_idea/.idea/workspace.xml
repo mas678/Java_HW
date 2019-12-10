@@ -2,35 +2,57 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1778c0ca-ae7e-4809-893b-8a2052067fed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../DZ_idea_11/src/base/Asserts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DZ_idea_11/src/base/MainChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DZ_idea_11/src/base/MainFilesChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DZ_idea_11/src/base/MainStdChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DZ_idea_11/src/base/Pair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DZ_idea_11/src/base/Randomized.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DZ_idea_11/src/base/TestCounter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DZ_idea_11/src/expression/Add.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DZ_idea_11/src/expression/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DZ_idea_11/src/expression/BinaryOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DZ_idea_11/src/expression/Const.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DZ_idea_11/src/expression/Divide.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DZ_idea_11/src/expression/Expression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DZ_idea_11/src/expression/ExpressionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DZ_idea_11/src/expression/FullExpression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DZ_idea_11/src/expression/Multiply.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DZ_idea_11/src/expression/Subtract.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DZ_idea_11/src/expression/Symbols.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DZ_idea_11/src/expression/ToMiniString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DZ_idea_11/src/expression/TripleExpression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DZ_idea_11/src/expression/TripleExpressionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DZ_idea_11/src/expression/Variable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DZ_10_IDEA/out/production/DZ_10_IDEA/mnk/HumanPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DZ_10_IDEA/out/production/DZ_10_IDEA/mnk/HumanPlayer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DZ_10_IDEA/out/production/DZ_10_IDEA/mnk/ServerBoard.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DZ_10_IDEA/out/production/DZ_10_IDEA/mnk/ServerBoard.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DZ_10_IDEA/src/mnk/HumanPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DZ_10_IDEA/src/mnk/HumanPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../12/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../12/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../12/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../12/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../12/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../12/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../12/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../12/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../12/12.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../12/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../12/src/base/Asserts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../12/src/base/MainChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../12/src/base/MainFilesChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../12/src/base/MainStdChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../12/src/base/Pair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../12/src/base/Randomized.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../12/src/base/TestCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../12/src/expression/Add.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../12/src/expression/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../12/src/expression/BinaryFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../12/src/expression/BinaryOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../12/src/expression/Const.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../12/src/expression/Divide.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../12/src/expression/Expression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../12/src/expression/ExpressionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../12/src/expression/FullExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../12/src/expression/Multiply.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../12/src/expression/Subtract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../12/src/expression/Symbols.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../12/src/expression/ToMiniString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../12/src/expression/TripleExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../12/src/expression/TripleExpressionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../12/src/expression/Variable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../12/src/expression/parser/BaseParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../12/src/expression/parser/Booking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../12/src/expression/parser/ComIntSymb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../12/src/expression/parser/Either.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../12/src/expression/parser/ExpressionException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../12/src/expression/parser/ExpressionParse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../12/src/expression/parser/ExpressionSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../12/src/expression/parser/Parser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../12/src/expression/parser/ParserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../12/src/expression/parser/StringSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DZ_idea_11/src/expression/BinaryFunction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ForParser/Parsing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ForParser/Parsing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DZ_idea_11/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DZ_idea_11/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DZ_8_idea/ForParser/Parsing.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DZ_8_idea/ForParser/Parsing.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DZ_idea_11/src/expression/Add.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DZ_idea_11/src/expression/Add.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DZ_idea_11/src/expression/BinaryOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DZ_idea_11/src/expression/BinaryOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DZ_idea_11/src/expression/Divide.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DZ_idea_11/src/expression/Divide.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DZ_idea_11/src/expression/Multiply.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DZ_idea_11/src/expression/Multiply.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DZ_idea_11/src/expression/Subtract.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DZ_idea_11/src/expression/Subtract.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +77,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DZ_10_IDEA" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -131,6 +153,7 @@
       <workItem from="1575321663475" duration="2563000" />
       <workItem from="1575330723211" duration="658000" />
       <workItem from="1575382215530" duration="3938000" />
+      <workItem from="1575947283337" duration="1318000" />
     </task>
     <servers />
   </component>

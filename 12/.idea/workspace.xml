@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="386f444b-f68e-4ee1-819a-f0d997556bbe" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/Asserts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/MainChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/MainFilesChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/MainStdChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/Pair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/Randomized.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/TestCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/expression/Add.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/expression/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/expression/BinaryFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/expression/BinaryOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/expression/Const.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/expression/Divide.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/expression/Expression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/expression/ExpressionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/expression/FullExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/expression/Multiply.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/expression/ShiftLeft.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/expression/ShiftRight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/expression/Subtract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/expression/Symbols.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/expression/ToMiniString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/expression/TripleExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/expression/TripleExpressionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/expression/Variable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/expression/parser/BaseParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/expression/parser/Booking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/expression/parser/ComIntSymb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/expression/parser/Either.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/expression/parser/ExpressionException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/expression/parser/ExpressionParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/expression/parser/ExpressionSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/expression/parser/Parser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/expression/parser/ParserShiftsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/expression/parser/ParserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/expression/parser/StringSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DZ_idea_11/src/expression/BinaryFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DZ_10_IDEA/out/production/DZ_10_IDEA/mnk/ServerBoard.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DZ_10_IDEA/out/production/DZ_10_IDEA/mnk/ServerBoard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DZ_10_IDEA/src/mnk/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DZ_10_IDEA/src/mnk/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DZ_10_IDEA/src/mnk/MnkBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DZ_10_IDEA/src/mnk/MnkBoard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DZ_10_IDEA/src/mnk/MnkConst.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DZ_10_IDEA/src/mnk/MnkConst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DZ_8_idea/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DZ_8_idea/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DZ_8_idea/out/production/DZ_8_idea/ForParser/Parsing.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DZ_8_idea/out/production/DZ_8_idea/ForParser/Parsing.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DZ_idea_11/src/expression/Add.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DZ_idea_11/src/expression/Add.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DZ_idea_11/src/expression/BinaryOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DZ_idea_11/src/expression/BinaryOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DZ_idea_11/src/expression/Divide.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DZ_idea_11/src/expression/Divide.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DZ_idea_11/src/expression/Multiply.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DZ_idea_11/src/expression/Multiply.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DZ_idea_11/src/expression/Subtract.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DZ_idea_11/src/expression/Subtract.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1UlTnxQSnMJtZcT0SUqyNG7dBZa" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DZ_10_IDEA" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\3-q3\Desktop\Korneev\DZ\12\src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Unnamed">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="12" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="expression.parser.ParserShiftsTest" />
+      <module name="12" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Unnamed" />
+      <item itemvalue="Application.Main" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="386f444b-f68e-4ee1-819a-f0d997556bbe" name="Default Changelist" comment="" />
+      <created>1575930352507</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575930352507</updated>
+      <workItem from="1575930366289" duration="40000" />
+      <workItem from="1575930442314" duration="23737000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="ch" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
