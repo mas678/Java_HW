@@ -1,15 +1,14 @@
 package expression.parser;
 
-import expression.Expression;
-
-import javax.xml.transform.Source;
-
 public class BaseParser {
-    private final ExpressionSource source;
+    private ExpressionSource source;
     private int index;
     protected char ch;
 
-    protected BaseParser(final ExpressionSource source) {
+    protected BaseParser() {
+    }
+
+    protected void newSource(ExpressionSource source) {
         this.source = source;
     }
 

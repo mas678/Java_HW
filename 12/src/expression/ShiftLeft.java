@@ -1,8 +1,23 @@
 package expression;
 
-public class ShiftLeft extends BinaryOperation {
-    public ShiftLeft(FullExpression firstExpression, FullExpression secondExpression) {
-        super(firstExpression, secondExpression, "<<", true);
+public class ShiftLeft extends AbstractBinaryOperation {
+    public ShiftLeft(CommonExpression firstExpression, CommonExpression secondExpression) {
+        super(firstExpression, secondExpression);
+    }
+
+    @Override
+    public int getLevel() {
+        return 1;
+    }
+
+    @Override
+    public String getSymbol() {
+        return "<<";
+    }
+
+    @Override
+    public boolean getOrder() {
+        return true;
     }
 
     @Override

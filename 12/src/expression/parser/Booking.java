@@ -1,7 +1,7 @@
 package expression.parser;
 
-import expression.FullExpression;
+import expression.CommonExpression;
 
 interface Booking {
-    FullExpression create(FullExpression childrenOne, FullExpression childrenTwo);
+    CommonExpression create(CommonExpression childrenOne, CommonExpression childrenTwo);
 }

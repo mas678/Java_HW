@@ -1,12 +1,12 @@
 package expression.parser;
 
-import expression.FullExpression;
+import expression.CommonExpression;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class ComIntSymb {
-    List<FullExpression> commonList;
+    List<CommonExpression> commonList;
     List<Integer> bracketsCnt;
     List<Character> mathSymbols;
 
@@ -16,7 +16,7 @@ public class ComIntSymb {
         mathSymbols = new ArrayList<>();
     }
 
-   public void add(FullExpression exp, Integer bracket) {
+   public void add(CommonExpression exp, Integer bracket) {
         commonList.add(exp);
         bracketsCnt.add(bracket);
    }
@@ -25,7 +25,7 @@ public class ComIntSymb {
         mathSymbols.add(s);
    }
 
-   public FullExpression getLastCommon() {
+   public CommonExpression getLastCommon() {
         return commonList.get(commonList.size() - 1);
    }
 

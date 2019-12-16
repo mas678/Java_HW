@@ -1,7 +1,8 @@
 package expression.parser;
 
-import expression.FullExpression;
+
+import expression.TripleExpression;
 
 public interface Parser {
-    FullExpression parse(String expression);
+    TripleExpression parse(String expression);
 }

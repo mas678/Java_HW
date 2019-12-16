@@ -1,8 +1,7 @@
 package expression;
 
-public interface FullExpression extends TripleExpression, Expression {
+public interface CommonExpression extends Expression, TripleExpression {
     void toString(StringBuilder into);
     void toMiniString(StringBuilder into);
     int getLevel();
-    String getSymbol();
 }
