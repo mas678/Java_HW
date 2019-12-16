@@ -1,8 +1,23 @@
 package expression;
 
-public class Divide extends BinaryOperation {
+public class Divide extends AbstractBinaryOperation {
     public Divide(CommonExpression firstExpression, CommonExpression secondExpression) {
-        super(firstExpression, secondExpression, "/", true, 3);
+        super(firstExpression, secondExpression);
+    }
+
+    @Override
+    public int getLevel() {
+        return 3;
+    }
+
+    @Override
+    public String getSymbol() {
+        return "/";
+    }
+
+    @Override
+    public boolean getOrder() {
+        return true;
     }
 
     @Override

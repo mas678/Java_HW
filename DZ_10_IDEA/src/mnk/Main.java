@@ -9,7 +9,7 @@ public class Main {
                 new RandomPlayer());
         do {
             Game game = new Game(false, playerList);
-            result = game.play(new MnkBoard());
+            result = game.play(new ServerBoard());
             System.out.println("Game result: " + result);
         } while (result != 0);
     }

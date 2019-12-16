@@ -1,19 +1,12 @@
 package expression;
 
-public abstract class BinaryOperation implements CommonExpression, BinaryFunction {
-    protected String symbol;
-    protected int level;
-    protected boolean order;
+public abstract class AbstractBinaryOperation implements CommonExpression, BinaryFunction {
     protected CommonExpression firstExpression;
     protected CommonExpression secondExpression;
 
-    public BinaryOperation (CommonExpression firstExpression, CommonExpression secondExpression,
-                            String symbol, boolean order, int level) {
+    public AbstractBinaryOperation(CommonExpression firstExpression, CommonExpression secondExpression) {
         this.firstExpression = firstExpression;
         this.secondExpression = secondExpression;
-        this.symbol = symbol;
-        this.level = level;
-        this.order = order;
     }
 
     @Override
@@ -27,7 +20,7 @@ public abstract class BinaryOperation implements CommonExpression, BinaryFunctio
     public void toMiniString(StringBuilder into) {
         bracketNeeding(into, firstExpression, false);
         into.append(" ");
-        into.append(symbol);
+        into.append(getSymbol());
         into.append(" ");
         bracketNeeding(into, secondExpression, true);
     }
@@ -35,7 +28,7 @@ public abstract class BinaryOperation implements CommonExpression, BinaryFunctio
     private void bracketNeeding(StringBuilder into, CommonExpression exp, boolean isSecond) {
         String end = "";
         if (getLevel() > exp.getLevel()
-                || (order && getLevel() == exp.getLevel() && isSecond))  {
+                || (getOrder() && getLevel() == exp.getLevel() && isSecond))  {
             into.append('(');
             end = ")";
         }
@@ -55,26 +48,16 @@ public abstract class BinaryOperation implements CommonExpression, BinaryFunctio
         into.append('(');
         firstExpression.toString(into);
         into.append(" ");
-        into.append(symbol);
+        into.append(getSymbol());
         into.append(" ");
         secondExpression.toString(into);
         into.append(')');
     }
 
     @Override
-    public int getLevel() {
-        return level;
-    }
-
-    @Override
-    public String getSymbol() {
-        return symbol;
-    }
-
-    @Override
     public boolean equals(Object obj) {
         if (obj != null && obj.getClass() == getClass()) {
-            BinaryOperation tmp = (BinaryOperation) obj;
+            AbstractBinaryOperation tmp = (AbstractBinaryOperation) obj;
             return firstExpression.equals(tmp.firstExpression)
                     && secondExpression.equals(tmp.secondExpression);
         }

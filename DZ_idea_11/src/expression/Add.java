@@ -1,8 +1,23 @@
 package expression;
 
-public class Add extends BinaryOperation {
+public class Add extends AbstractBinaryOperation {
     public Add(CommonExpression firstExpression, CommonExpression secondExpression) {
-        super(firstExpression, secondExpression, "+", false, 2);
+        super(firstExpression, secondExpression);
+    }
+
+    @Override
+    public int getLevel() {
+        return 2;
+    }
+
+    @Override
+    public String getSymbol() {
+        return "+";
+    }
+
+    @Override
+    public boolean getOrder() {
+        return false;
     }
 
     @Override

@@ -36,6 +36,11 @@ public class ServerBoard implements Board, Position {
 
 
     @Override
+    public Position getPosition() {
+        return new PlayerPosition(this);
+    }
+
+    @Override
     public Cell getCell() {
         return turn;
     }

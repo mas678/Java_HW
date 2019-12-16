@@ -1,8 +1,23 @@
 package expression;
 
-public class Multiply extends BinaryOperation {
+public class Multiply extends AbstractBinaryOperation {
     public Multiply(CommonExpression firstExpression, CommonExpression secondExpression) {
-        super(firstExpression, secondExpression, "*", false, 3);
+        super(firstExpression, secondExpression);
+    }
+
+    @Override
+    public int getLevel() {
+        return 3;
+    }
+
+    @Override
+    public String getSymbol() {
+        return "*";
+    }
+
+    @Override
+    public boolean getOrder() {
+        return false;
     }
 
     @Override
@@ -13,7 +28,7 @@ public class Multiply extends BinaryOperation {
     public void toMiniString(StringBuilder into) {
         bracketNeeding(into, firstExpression, false);
         into.append(" ");
-        into.append(symbol);
+        into.append(getSymbol());
         into.append(" ");
         bracketNeeding(into, secondExpression, true);
     }
@@ -21,7 +36,7 @@ public class Multiply extends BinaryOperation {
     private void bracketNeeding(StringBuilder into, CommonExpression exp, boolean isSecond) {
         String end = "";
         if (getLevel() > exp.getLevel() || (exp.getSymbol().equals("/")
-                || (order && getLevel() == exp.getLevel())) && isSecond)  {
+                || (getOrder() && getLevel() == exp.getLevel())) && isSecond)  {
             into.append('(');
             end = ")";
         }
