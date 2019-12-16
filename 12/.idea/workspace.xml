@@ -2,72 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="386f444b-f68e-4ee1-819a-f0d997556bbe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/12/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/12/expression/AbstractBinaryOperation.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/12/expression/Add.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/12/expression/BaseTest$Op.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/12/expression/BaseTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/12/expression/BinaryFunction.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/12/expression/CommonExpression.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/12/expression/Const.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/12/expression/Divide.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/12/expression/Expression.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/12/expression/ExpressionTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/12/expression/Multiply.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/12/expression/ShiftLeft.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/12/expression/ShiftRight.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/12/expression/Subtract.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/12/expression/ToMiniString.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/12/expression/TripleExpression.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/12/expression/TripleExpressionTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/12/expression/Variable.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/12/expression/parser/BaseParser.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/12/expression/parser/Booking.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/12/expression/parser/ComIntSymb.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/12/expression/parser/Either$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/12/expression/parser/Either$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/12/expression/parser/Either.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/12/expression/parser/ExpressionException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/12/expression/parser/ExpressionParser.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/12/expression/parser/ExpressionSource.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/12/expression/parser/Parser.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/12/expression/parser/ParserShiftsTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/12/expression/parser/ParserTest$ExpException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/12/expression/parser/ParserTest$Reason.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/12/expression/parser/ParserTest$TExpression.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/12/expression/parser/ParserTest$Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/12/expression/parser/ParserTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/12/expression/parser/StringSource.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/expression/Abs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/expression/Minus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/expression/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/expression/parser/OneVariable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/expression/parser/ParserAbsSquareTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/expression/Add.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/expression/Add.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/expression/BinaryFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/expression/BinaryFunction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/expression/BinaryOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/expression/AbstractBinaryOperation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/expression/Const.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/expression/Const.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/expression/Divide.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/expression/Divide.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/expression/FullExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/expression/CommonExpression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/expression/Multiply.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/expression/Multiply.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/expression/ShiftLeft.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/expression/ShiftLeft.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/expression/ShiftRight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/expression/ShiftRight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/expression/Subtract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/expression/Subtract.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/expression/Symbols.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/expression/Variable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/expression/Variable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/expression/parser/BaseParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/expression/parser/BaseParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/expression/parser/Booking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/expression/parser/Booking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/expression/parser/ComIntSymb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/expression/parser/ComIntSymb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/expression/parser/Either.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/expression/parser/Either.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/expression/parser/ExpressionException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/expression/parser/ExpressionException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/expression/parser/ExpressionParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/expression/parser/ExpressionParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/expression/parser/ExpressionSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/expression/parser/ExpressionSource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/expression/parser/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/expression/parser/Parser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/expression/parser/ParserShiftsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/expression/parser/ParserShiftsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/expression/parser/ParserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/expression/parser/ParserTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/expression/parser/StringSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/expression/parser/StringSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/expression/AbstractUnaryOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/expression/UnaryFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/expression/Abs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/expression/Abs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/expression/Minus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/expression/Minus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/expression/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/expression/Square.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -78,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -174,8 +113,16 @@
       <workItem from="1575930366289" duration="40000" />
       <workItem from="1575930442314" duration="26049000" />
       <workItem from="1576515232372" duration="63000" />
-      <workItem from="1576515318401" duration="12917000" />
+      <workItem from="1576515318401" duration="13554000" />
     </task>
+    <task id="LOCAL-00001" summary="Full done job (without new modification)">
+      <created>1576534031068</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1576534031068</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,6 +140,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Full done job (without new modification)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Full done job (without new modification)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

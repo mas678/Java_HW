@@ -1,43 +1,8 @@
 package expression;
 
-public class Abs implements CommonExpression {
-    private CommonExpression expression;
-
+public class Abs extends AbstractUnaryOperation {
     public Abs(CommonExpression expression) {
-        this.expression = expression;
-    }
-
-    @Override
-    public String toString() {
-        StringBuilder into = new StringBuilder();
-        toString(into);
-        return into.toString();
-    }
-
-    @Override
-    public void toString(StringBuilder into) {
-        into.append("abs(");
-        expression.toString(into);
-        into.append(")");
-    }
-
-    @Override
-    public String toMiniString() {
-        StringBuilder into = new StringBuilder();
-        toMiniString(into);
-        return into.toString();
-    }
-
-    @Override
-    public void toMiniString(StringBuilder into) {
-        into.append("abs");
-        String end = "";
-        if (expression.getClass() == AbstractBinaryOperation.class) {
-            into.append("(");
-            end = ")";
-        }
-        expression.toMiniString(into);
-        into.append(end);
+        super(expression);
     }
 
     @Override
@@ -46,11 +11,7 @@ public class Abs implements CommonExpression {
     }
 
     @Override
-    public int evaluate(int x) {
-        return abs(-expression.evaluate(x));
-    }
-
-    private int abs(int i) {
+    public int function(int i) {
         if (i > 0) {
             return i;
         }
@@ -58,7 +19,7 @@ public class Abs implements CommonExpression {
     }
 
     @Override
-    public int evaluate(int x, int y, int z) {
-        return abs(expression.evaluate(x, y, z));
+    public String getSymbol() {
+        return "abs";
     }
 }
