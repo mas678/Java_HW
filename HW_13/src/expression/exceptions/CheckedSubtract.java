@@ -15,7 +15,7 @@ public class CheckedSubtract extends Subtract {
             if (a < 0) {
                 return a - b;
             }
-            throw new MathException("overflow");
+            throw new MathException("Integer overflow");
         }
         return CheckedAdd.addCheck(a, -b);
     }

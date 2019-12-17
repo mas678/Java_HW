@@ -28,7 +28,7 @@ public class BaseParser {
         if (ch != c) {
             throw error("Expected '" + c + "', found '" + ch + "'");
         }
-        nextChar();
+        this.nextChar();
     }
 
     protected void expect(final String value) {

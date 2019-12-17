@@ -15,7 +15,7 @@ public class CheckedDivide extends Divide {
         }
         if (a == Integer.MIN_VALUE) {
             if (b == -1) {
-                throw new MathException("overflow");
+                throw new MathException("Integer overflow");
             }
         }
         return a / b;

@@ -17,7 +17,7 @@ public class CheckedMultiply extends Multiply {
         }
         if (Integer.min(a, b) == Integer.MIN_VALUE) {
             if (Integer.max(a, b) != 1) {
-                throw new MathException("overflow");
+                throw new MathException("Integer overflow");
             }
             return Integer.MIN_VALUE;
         }
@@ -25,9 +25,9 @@ public class CheckedMultiply extends Multiply {
         a = Integer.max(a, -a);
         b = Integer.max(b, -b);
         if (c > 0 && b > Integer.MAX_VALUE / a) {
-            throw new MathException("overflow");
+            throw new MathException("Integer overflow");
         } else if (c < 0 && -b < Integer.MIN_VALUE / a) {
-            throw new MathException("overflow");
+            throw new MathException("Integer overflow");
         }
         return a * b * c;
     }

@@ -25,17 +25,10 @@ public class Multiply extends AbstractBinaryOperation {
         return first * second;
     }
 
-    public void toMiniString(StringBuilder into) {
-        bracketNeeding(into, firstExpression, false);
-        into.append(" ");
-        into.append(getSymbol());
-        into.append(" ");
-        bracketNeeding(into, secondExpression, true);
-    }
-
-    private void bracketNeeding(StringBuilder into, CommonExpression exp, boolean isSecond) {
+    @Override
+    void bracketNeeding(StringBuilder into, CommonExpression exp, boolean isSecond) {
         String end = "";
-        if (getLevel() > exp.getLevel() || (exp.getSymbol().equals("/")
+        if (getLevel() > exp.getLevel() || (exp.getClass() == Divide.class
                 || (getOrder() && getLevel() == exp.getLevel())) && isSecond)  {
             into.append('(');
             end = ")";

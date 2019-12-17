@@ -25,7 +25,7 @@ public abstract class AbstractBinaryOperation implements CommonExpression, Binar
         bracketNeeding(into, secondExpression, true);
     }
 
-    private void bracketNeeding(StringBuilder into, CommonExpression exp, boolean isSecond) {
+    void bracketNeeding(StringBuilder into, CommonExpression exp, boolean isSecond) {
         String end = "";
         if (getLevel() > exp.getLevel()
                 || (getOrder() && getLevel() == exp.getLevel() && isSecond))  {

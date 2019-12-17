@@ -2,6 +2,6 @@ package expression.parser;
 
 import expression.CommonExpression;
 
-interface Booking {
+interface TwoVariables {
     CommonExpression create(CommonExpression childrenOne, CommonExpression childrenTwo);
 }

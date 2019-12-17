@@ -1,56 +1,19 @@
 package expression.parser;
 
 import expression.*;
-import expression.exceptions.*;
 
 import java.util.Map;
 
 public class ExpressionParser extends BaseParser implements Parser {
     private final int bracketLevel = -1;
 
-    private final Map<Character, String> oneVar = Map.of(
-            'a', "bs",
-            's', "quare"
-    );
-
-    private final Map<Character, OneVariable> createOneVar = Map.of(
-            'a', Abs::new,
-            's', Square::new
-    );
-
-    private final Map<Character, String> afterNumb = Map.of(
-            '*', "",
-            '-', "",
-            '+', "",
-            '/', "",
-            '>', ">",
-            '<', "<"
-    );
-
-    private final Map<Character, Integer> levelMap = Map.of(
-            '*', 3,
-            '-', 2,
-            '+', 2,
-            '/', 3,
-            '<', 1,
-            '>', 1
-    );
-
-    private final Map<Character, Booking> create = Map.of(
-            '+', CheckedAdd::new,
-            '-', CheckedSubtract::new,
-            '*', CheckedMultiply::new,
-            '/', CheckedDivide::new
-    );
-
-
     @Override
     public TripleExpression parse(String expression) {
         newSource(new StringSource(expression));
         nextChar();
         TripleExpression ans = parse(bracketLevel);
-        if (ch != '\0') {
-            throw error("waste \")\"");
+        if (ch == ')') {
+            throw error("Extra \")\"");
         }
         return ans;
     }
@@ -61,19 +24,25 @@ public class ExpressionParser extends BaseParser implements Parser {
         } while (Character.isWhitespace(ch));
     }
 
+    private void next() {
+        if (Character.isWhitespace(ch)) {
+            nextChar();
+        }
+    }
+
     private CommonExpression parse(int previousLevel) {
         CommonExpression temp = parseValue();
-        while (!testSymbol(previousLevel)) {
+        while (!testBinaryOperation(previousLevel)) {
             temp = parseSymbol(temp);
         }
         return temp;
     }
 
-    private boolean testSymbol(int previousLevel) {
-        if (!afterNumb.containsKey(ch)) {
+    private boolean testBinaryOperation(int previousLevel) {
+        if (!ExpressionMaps.binaryOperationMap.containsKey(ch)) {
             return ch == ')' || ch == '\0';
         }
-        return (levelMap.get(ch) <= previousLevel);
+        return (ExpressionMaps.binaryOperationMap.get(ch).level <= previousLevel);
     }
 
 
@@ -86,10 +55,11 @@ public class ExpressionParser extends BaseParser implements Parser {
             }
         } else if (between('0', '9')) {
             return parseNumber(false);
-        } else if (between('x', 'z')){
-            String s = Character.toString(ch);
-            nextChar();
-            return (new Variable(s));
+        } else if (ExpressionMaps.Variables.containsKey(ch)){
+            String s = ExpressionMaps.Variables.get(ch);
+            expect(s);
+            next();
+            return new Variable(s);
         } else if (test('(')) {
             CommonExpression temp = parse(bracketLevel);
             if (ch == '\0') {
@@ -97,15 +67,8 @@ public class ExpressionParser extends BaseParser implements Parser {
             }
             nextChar();
             return temp;
-        } else if (oneVar.containsKey(ch)) {
-            for (Map.Entry<Character, String> temp : oneVar.entrySet()) {
-                if (test(temp.getKey())) {
-                    expect(temp.getValue());
-                    return createOneVar.get(temp.getKey()).create(parseValue());
-                }
-            }
         }
-        throw error("No Value (bracket, number or variable)");
+        throw error("No Value (bracket, number, variable or UnaryOperation)");
     }
 
     private CommonExpression parseNumber(boolean isMinus) {
@@ -118,9 +81,7 @@ public class ExpressionParser extends BaseParser implements Parser {
             super.nextChar();
         }
         try {
-            if (Character.isWhitespace(ch)) {
-                nextChar();
-            }
+            next();
             return new Const(Integer.parseInt(numb.toString()));
         } catch (NumberFormatException e) {
             throw error("Illegal number " + e);
@@ -128,10 +89,11 @@ public class ExpressionParser extends BaseParser implements Parser {
     }
 
     private CommonExpression parseSymbol(CommonExpression past) {
-        for (Map.Entry<Character, String> temp : afterNumb.entrySet()) {
+        for (Map.Entry<Character, BinaryParserConst> temp : ExpressionMaps.binaryOperationMap.entrySet()) {
             if (test(temp.getKey())) {
-                expect(temp.getValue());
-                return create.get(temp.getKey()).create(past, parse(levelMap.get(temp.getKey())));
+                expect(temp.getValue().end);
+                return temp.getValue().create.create
+                        (past, parse(temp.getValue().level));
             }
         }
         throw error("Expected Math sign");

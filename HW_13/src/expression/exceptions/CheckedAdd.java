@@ -15,9 +15,9 @@ public class CheckedAdd extends Add {
 
     static int addCheck(int a, int b) {
         if (a > 0 && b > 0 && a + b <= 0) {
-            throw new MathException("overflow");
+            throw new MathException("Integer overflow");
         } else if (a < 0 && b < 0 && a + b >= 0) {
-            throw new MathException("overflow");
+            throw new MathException("Integer overflow");
         }
         return a + b;
     }
