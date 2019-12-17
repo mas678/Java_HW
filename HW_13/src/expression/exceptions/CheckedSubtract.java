@@ -1,23 +1,12 @@
-package expression;
+package expression.exceptions;
 
-public class CheckedSubtract extends AbstractBinaryOperation {
+import expression.Add;
+import expression.CommonExpression;
+import expression.Subtract;
+
+public class CheckedSubtract extends Subtract {
     public CheckedSubtract(CommonExpression firstExpression, CommonExpression secondExpression) {
         super(firstExpression, secondExpression);
-    }
-
-    @Override
-    public int getLevel() {
-        return 2;
-    }
-
-    @Override
-    public String getSymbol() {
-        return "-";
-    }
-
-    @Override
-    public boolean getOrder() {
-        return true;
     }
 
     @Override
@@ -28,7 +17,6 @@ public class CheckedSubtract extends AbstractBinaryOperation {
             }
             throw new MathException("overflow");
         }
-        b = -b;
-        return CheckedAdd.addCheck(a, b);
+        return CheckedAdd.addCheck(a, -b);
     }
 }

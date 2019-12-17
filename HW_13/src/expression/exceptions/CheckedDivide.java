@@ -1,23 +1,11 @@
-package expression;
+package expression.exceptions;
 
-public class CheckedDivide extends AbstractBinaryOperation {
+import expression.CommonExpression;
+import expression.Divide;
+
+public class CheckedDivide extends Divide {
     public CheckedDivide(CommonExpression firstExpression, CommonExpression secondExpression) {
         super(firstExpression, secondExpression);
-    }
-
-    @Override
-    public int getLevel() {
-        return 3;
-    }
-
-    @Override
-    public String getSymbol() {
-        return "/";
-    }
-
-    @Override
-    public boolean getOrder() {
-        return true;
     }
 
     @Override

@@ -1,23 +1,11 @@
-package expression;
+package expression.exceptions;
 
-public class CheckedAdd extends AbstractBinaryOperation {
+import expression.Add;
+import expression.CommonExpression;
+
+public class CheckedAdd extends Add {
     public CheckedAdd(CommonExpression firstExpression, CommonExpression secondExpression) {
         super(firstExpression, secondExpression);
-    }
-
-    @Override
-    public int getLevel() {
-        return 2;
-    }
-
-    @Override
-    public String getSymbol() {
-        return "+";
-    }
-
-    @Override
-    public boolean getOrder() {
-        return false;
     }
 
     @Override
@@ -27,10 +15,8 @@ public class CheckedAdd extends AbstractBinaryOperation {
 
     static int addCheck(int a, int b) {
         if (a > 0 && b > 0 && a + b <= 0) {
-//            if (Integer.MAX_VALUE - a < b) {
             throw new MathException("overflow");
         } else if (a < 0 && b < 0 && a + b >= 0) {
-//            if (Integer.MIN_VALUE - b > a) {
             throw new MathException("overflow");
         }
         return a + b;

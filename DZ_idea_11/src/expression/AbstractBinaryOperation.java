@@ -4,7 +4,7 @@ public abstract class AbstractBinaryOperation implements CommonExpression, Binar
     protected CommonExpression firstExpression;
     protected CommonExpression secondExpression;
 
-    public AbstractBinaryOperation(CommonExpression firstExpression, CommonExpression secondExpression) {
+    AbstractBinaryOperation(CommonExpression firstExpression, CommonExpression secondExpression) {
         this.firstExpression = firstExpression;
         this.secondExpression = secondExpression;
     }

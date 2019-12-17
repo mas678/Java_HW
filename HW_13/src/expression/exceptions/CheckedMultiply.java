@@ -1,23 +1,13 @@
-package expression;
+package expression.exceptions;
 
-public class CheckedMultiply extends AbstractBinaryOperation {
+import expression.Add;
+import expression.CommonExpression;
+import expression.Multiply;
+import expression.Subtract;
+
+public class CheckedMultiply extends Multiply {
     public CheckedMultiply(CommonExpression firstExpression, CommonExpression secondExpression) {
         super(firstExpression, secondExpression);
-    }
-
-    @Override
-    public int getLevel() {
-        return 3;
-    }
-
-    @Override
-    public String getSymbol() {
-        return "*";
-    }
-
-    @Override
-    public boolean getOrder() {
-        return false;
     }
 
     @Override

@@ -1,6 +1,7 @@
 package expression.parser;
 
 import expression.*;
+import expression.exceptions.*;
 
 import java.util.Map;
 
@@ -39,9 +40,7 @@ public class ExpressionParser extends BaseParser implements Parser {
             '+', CheckedAdd::new,
             '-', CheckedSubtract::new,
             '*', CheckedMultiply::new,
-            '/', CheckedDivide::new,
-            '<', ShiftLeft::new,
-            '>', ShiftRight::new
+            '/', CheckedDivide::new
     );
 
 
@@ -83,7 +82,7 @@ public class ExpressionParser extends BaseParser implements Parser {
             if (between('0', '9')) {
                 return parseNumber(true);
             } else {
-                return new CheckedNegate(parseValue());
+                return new Negate(parseValue());
             }
         } else if (between('0', '9')) {
             return parseNumber(false);
