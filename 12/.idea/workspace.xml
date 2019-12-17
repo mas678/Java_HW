@@ -2,11 +2,67 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="386f444b-f68e-4ee1-819a-f0d997556bbe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/expression/AbstractUnaryOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/expression/UnaryFunction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/expression/Abs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/expression/Abs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/expression/Minus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/expression/Minus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/expression/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/expression/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW_13/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW_13/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW_13/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW_13/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW_13/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW_13/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW_13/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW_13/HW_13.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW_13/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW_13/src/base/Asserts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW_13/src/base/MainChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW_13/src/base/MainFilesChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW_13/src/base/MainStdChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW_13/src/base/Pair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW_13/src/base/Randomized.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW_13/src/base/TestCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW_13/src/expression/Abs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW_13/src/expression/AbstractBinaryOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW_13/src/expression/AbstractUnaryOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW_13/src/expression/Add.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW_13/src/expression/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW_13/src/expression/BinaryFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW_13/src/expression/CommonExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW_13/src/expression/Const.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW_13/src/expression/Divide.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW_13/src/expression/Expression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW_13/src/expression/ExpressionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW_13/src/expression/Minus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW_13/src/expression/Multiply.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW_13/src/expression/ShiftLeft.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW_13/src/expression/ShiftRight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW_13/src/expression/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW_13/src/expression/Subtract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW_13/src/expression/ToMiniString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW_13/src/expression/TripleExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW_13/src/expression/TripleExpressionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW_13/src/expression/UnaryFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW_13/src/expression/Variable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW_13/src/expression/exceptions/AbstractChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW_13/src/expression/exceptions/CheckedAdd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW_13/src/expression/exceptions/CheckedDivide.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW_13/src/expression/exceptions/CheckedMultiply.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW_13/src/expression/exceptions/CheckedNegate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW_13/src/expression/exceptions/CheckedSubtract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW_13/src/expression/exceptions/Checker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW_13/src/expression/exceptions/ExceptionsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW_13/src/expression/exceptions/MathException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW_13/src/expression/parser/BaseParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW_13/src/expression/parser/Booking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW_13/src/expression/parser/ComIntSymb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW_13/src/expression/parser/Either.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW_13/src/expression/parser/ExpressionException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW_13/src/expression/parser/ExpressionParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW_13/src/expression/parser/ExpressionSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW_13/src/expression/parser/OneVariable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW_13/src/expression/parser/Parser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW_13/src/expression/parser/ParserAbsSquareTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW_13/src/expression/parser/ParserShiftsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW_13/src/expression/parser/ParserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW_13/src/expression/parser/StringSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -113,7 +169,7 @@
       <workItem from="1575930366289" duration="40000" />
       <workItem from="1575930442314" duration="26049000" />
       <workItem from="1576515232372" duration="63000" />
-      <workItem from="1576515318401" duration="13554000" />
+      <workItem from="1576515318401" duration="16700000" />
     </task>
     <task id="LOCAL-00001" summary="Full done job (without new modification)">
       <created>1576534031068</created>
@@ -122,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576534031068</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Some abstract classes and refactoring">
+      <created>1576534620594</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1576534620594</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,7 +206,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Full done job (without new modification)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Full done job (without new modification)" />
+    <MESSAGE value="Some abstract classes and refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="Some abstract classes and refactoring" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
