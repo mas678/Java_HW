@@ -1,8 +1,6 @@
 package expression.parser;
 import expression.*;
-import expression.exceptions.CheckedAdd;
-import expression.exceptions.CheckedLogarithm;
-import expression.exceptions.CheckedPower;
+import expression.exceptions.*;
 
 import java.util.List;
 import java.util.Map;
@@ -22,7 +20,7 @@ public class ExpressionParser extends BaseParser implements Parser {
         return ans;
     }
 
-    public void skipWhitespace() {
+    private void skipWhitespace() {
         while (Character.isWhitespace(ch)) {
             super.nextChar();
         }
