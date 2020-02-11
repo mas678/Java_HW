@@ -1,9 +1,11 @@
 package expression.parser;
 import expression.*;
+import expression.exceptions.CheckedAdd;
+import expression.exceptions.CheckedLogarithm;
+import expression.exceptions.CheckedPower;
 
 import java.util.List;
 import java.util.Map;
-import java.util.function.BinaryOperator;
 
 public class ExpressionParser extends BaseParser implements Parser {
     private final int bracketLevel = -1;
@@ -27,8 +29,11 @@ public class ExpressionParser extends BaseParser implements Parser {
     }
 
     private CommonExpression parse(int previousLevel) {
+        currentOperation = null;
         CommonExpression temp = parseValue();
-        currentOperation = parseBinaryOperation();
+        if (currentOperation == null) {
+            currentOperation = parseBinaryOperation();
+        }
         while (testBinaryOperation(currentOperation, previousLevel)) {
             temp = create(currentOperation, temp);
         }
@@ -49,10 +54,24 @@ public class ExpressionParser extends BaseParser implements Parser {
             }
         } else if (between('0', '9')) {
             return parseNumber(false);
-        } else if (between('x', 'z')){
+        } else if (between('x', 'z')) {
             String s = Character.toString(ch);
             nextChar();
             return (new Variable(s));
+        } else if (test('l')) {
+            expect("og2");
+            if (!(between(' ', ' ') || between('-', '-') || between('(', '('))) {
+                throw new ExpressionException("Oh ");
+            }
+            CommonExpression temp = parse(5);
+            return new CheckedLogarithm(temp, new Const(2));
+        } else if (test('p')) {
+            expect("ow2");
+            if (!(between(' ', ' ') || between('-', '-') || between('(', '('))) {
+                throw new ExpressionException("Oh ");
+            }
+            CommonExpression temp = parse(5);
+            return new CheckedPower(new Const(2), temp);
         } else if (test('(')) {
             CommonExpression temp = parse(bracketLevel);
             if (ch != ')') {

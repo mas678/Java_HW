@@ -3,8 +3,9 @@ package expression.exceptions;
 import expression.CommonExpression;
 import expression.Const;
 import expression.Divide;
+import expression.Power;
 
-public class CheckedPower extends Divide {
+public class CheckedPower extends Power {
     public CheckedPower(CommonExpression firstExpression, CommonExpression secondExpression) {
         super(firstExpression, secondExpression);
     }
@@ -28,6 +29,6 @@ public class CheckedPower extends Divide {
         if (b % 2 == 1) {
             y = new CheckedMultiply(null, null).function(a, y);
         }
-        return b > 0 ? y : new CheckedDivide(null, null).function(y, a);
+        return y;
     }
 }

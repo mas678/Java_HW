@@ -1,10 +1,9 @@
 package expression.exceptions;
 
 import expression.CommonExpression;
-import expression.Const;
-import expression.Divide;
+import expression.Logarithm;
 
-public class CheckedLogarithm extends Divide {
+public class CheckedLogarithm extends Logarithm {
     public CheckedLogarithm(CommonExpression firstExpression, CommonExpression secondExpression) {
         super(firstExpression, secondExpression);
     }

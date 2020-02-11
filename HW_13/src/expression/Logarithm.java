@@ -25,7 +25,7 @@ public class Logarithm extends AbstractBinaryOperation {
     @Override
     public int function(int a, int b) {
         int ans = 0;
-        while (a > b) {
+        while (a >= b) {
             a /= b;
             ans++;
         }
