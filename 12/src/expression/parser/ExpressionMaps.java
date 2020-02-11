@@ -5,7 +5,7 @@ import expression.*;
 import java.util.Map;
 
 class ExpressionMaps {
-    static final Map<Character, BinaryParserConst> binaryOperationMap = Map.of(
+    static final Map<Character, BinaryParserConst> BINARY_OPERATIONS = Map.of(
             '*', new BinaryParserConst(3, Multiply::new, ""),
             '/', new BinaryParserConst(3, Divide::new, ""),
             '-', new BinaryParserConst(2, Subtract::new, ""),

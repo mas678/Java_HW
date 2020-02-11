@@ -11,7 +11,7 @@ public class CheckedDivide extends Divide {
     @Override
     public int function(int a, int b) {
         if (b == 0) {
-            throw new MathException("division by zero");
+            throw new MathException("Division by zero");
         }
         if (a == Integer.MIN_VALUE) {
             if (b == -1) {

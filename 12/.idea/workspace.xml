@@ -2,43 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="386f444b-f68e-4ee1-819a-f0d997556bbe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../HW_13/out/production/HW_13/expression/exceptions/ExceptionsTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HW_13/out/production/HW_13/expression/parser/BaseParser.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HW_13/out/production/HW_13/expression/parser/BinaryParserConst.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HW_13/out/production/HW_13/expression/parser/ComIntSymb.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HW_13/out/production/HW_13/expression/parser/Either$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HW_13/out/production/HW_13/expression/parser/Either$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HW_13/out/production/HW_13/expression/parser/Either.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HW_13/out/production/HW_13/expression/parser/ExpressionException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HW_13/out/production/HW_13/expression/parser/ExpressionMaps.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HW_13/out/production/HW_13/expression/parser/ExpressionParser.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HW_13/out/production/HW_13/expression/parser/ExpressionSource.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HW_13/out/production/HW_13/expression/parser/Parser.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HW_13/out/production/HW_13/expression/parser/ParserAbsSquareTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HW_13/out/production/HW_13/expression/parser/ParserReverseDigitsTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HW_13/out/production/HW_13/expression/parser/ParserShiftsTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HW_13/out/production/HW_13/expression/parser/ParserTest$ExpException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HW_13/out/production/HW_13/expression/parser/ParserTest$Reason.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HW_13/out/production/HW_13/expression/parser/ParserTest$TExpression.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HW_13/out/production/HW_13/expression/parser/ParserTest$Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HW_13/out/production/HW_13/expression/parser/ParserTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HW_13/out/production/HW_13/expression/parser/StringSource.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HW_13/out/production/HW_13/expression/parser/TwoVariables.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HW_13/src/expression/parser/BinaryParserConst.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HW_13/src/expression/parser/ExpressionMaps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HW_13/src/expression/parser/ParserReverseDigitsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/12/expression/parser/ComIntSymb.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/12/expression/parser/ExpressionParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/12/expression/parser/ExpressionParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/expression/parser/ComIntSymb.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/expression/parser/ExpressionMaps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/expression/parser/ExpressionMaps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/expression/parser/ExpressionParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/expression/parser/ExpressionParser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DZ_idea_11/src/expression/AbstractBinaryOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DZ_idea_11/src/expression/AbstractBinaryOperation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DZ_idea_11/src/expression/Multiply.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DZ_idea_11/src/expression/Multiply.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DZ_idea_11/src/expression/TripleExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DZ_idea_11/src/expression/TripleExpression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DZ_idea_11/src/expression/Variable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DZ_idea_11/src/expression/Variable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW_13/out/production/HW_13/expression/exceptions/ExceptionsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HW_13/out/production/HW_13/expression/exceptions/ExceptionsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW_13/out/production/HW_13/expression/parser/ComIntSymb.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW_13/out/production/HW_13/expression/parser/ExpressionMaps.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HW_13/out/production/HW_13/expression/parser/ExpressionMaps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW_13/out/production/HW_13/expression/parser/ExpressionParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HW_13/out/production/HW_13/expression/parser/ExpressionParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW_13/out/production/HW_13/expression/parser/Parser.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HW_13/out/production/HW_13/expression/parser/Parser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW_13/out/production/HW_13/expression/parser/ParserTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HW_13/out/production/HW_13/expression/parser/ParserTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HW_13/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW_13/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW_13/src/expression/exceptions/CheckedAdd.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW_13/src/expression/exceptions/CheckedAdd.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HW_13/src/expression/exceptions/CheckedDivide.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW_13/src/expression/exceptions/CheckedDivide.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HW_13/src/expression/exceptions/CheckedMultiply.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW_13/src/expression/exceptions/CheckedMultiply.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW_13/src/expression/exceptions/CheckedSubtract.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW_13/src/expression/exceptions/CheckedSubtract.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW_13/src/expression/parser/BaseParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW_13/src/expression/parser/BaseParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW_13/src/expression/parser/Booking.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW_13/src/expression/parser/TwoVariables.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW_13/src/expression/parser/ComIntSymb.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW_13/src/expression/parser/ExpressionMaps.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW_13/src/expression/parser/ExpressionMaps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HW_13/src/expression/parser/ExpressionParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW_13/src/expression/parser/ExpressionParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW_13/src/expression/parser/OneVariable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW_13/src/expression/parser/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW_13/src/expression/parser/Parser.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +49,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DZ_idea_11" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -158,7 +143,10 @@
       <workItem from="1576548444792" duration="45000" />
       <workItem from="1576577730135" duration="740000" />
       <workItem from="1576589269421" duration="239000" />
-      <workItem from="1576591476392" duration="5719000" />
+      <workItem from="1576591476392" duration="7390000" />
+      <workItem from="1577190307139" duration="2273000" />
+      <workItem from="1581022823835" duration="2336000" />
+      <workItem from="1581368678801" duration="663000" />
     </task>
     <task id="LOCAL-00001" summary="Full done job (without new modification)">
       <created>1576534031068</created>

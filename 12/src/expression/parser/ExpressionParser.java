@@ -22,17 +22,15 @@ public class ExpressionParser extends BaseParser implements Parser {
 
     private CommonExpression parse(int previousLevel) {
         CommonExpression temp = parseValue();
-        while (!testBinaryOperation(previousLevel)) {
-            temp = parseSymbol(temp);
+        while (testBinaryOperation(previousLevel)) {
+            temp = parseBinaryOperation(temp);
         }
         return temp;
     }
 
     private boolean testBinaryOperation(int previousLevel) {
-        if (!ExpressionMaps.binaryOperationMap.containsKey(ch)) {
-            return ch == ')' || ch == '\0';
-        }
-        return (ExpressionMaps.binaryOperationMap.get(ch).level <= previousLevel);
+        BinaryParserConst op = ExpressionMaps.BINARY_OPERATIONS.get(ch);
+        return op != null || op.level > previousLevel;
     }
 
 
@@ -51,6 +49,9 @@ public class ExpressionParser extends BaseParser implements Parser {
             return (new Variable(s));
         } else if (test('(')) {
             CommonExpression temp = parse(bracketLevel);
+            if (ch != ')') {
+                throw error("Missed \")\"");
+            }
             nextChar();
             return temp;
         } else if (ExpressionMaps.unaryOperationMap.containsKey(ch)) {
@@ -61,7 +62,7 @@ public class ExpressionParser extends BaseParser implements Parser {
                 }
             }
         }
-        throw error("No Value (bracket, number, variable or UnaryOperation)");
+        throw error("No Value (bracket, number, variable or unaryOperation)");
     }
 
     private CommonExpression parseNumber(boolean isMinus) {
@@ -80,12 +81,11 @@ public class ExpressionParser extends BaseParser implements Parser {
         }
     }
 
-    private CommonExpression parseSymbol(CommonExpression past) {
-        for (Map.Entry<Character, BinaryParserConst> temp : ExpressionMaps.binaryOperationMap.entrySet()) {
-            if (test(temp.getKey())) {
-                expect(temp.getValue().end);
-                return temp.getValue().create.create
-                        (past, parse(ExpressionMaps.binaryOperationMap.get(temp.getKey()).level));
+    private CommonExpression parseBinaryOperation(CommonExpression past) {
+        for (Map.Entry<Character, BinaryParserConst> entry : ExpressionMaps.BINARY_OPERATIONS.entrySet()) {
+            if (test(entry.getKey())) {
+                expect(entry.getValue().end);
+                return entry.getValue().create.create(past, parse(entry.getValue().level));
             }
         }
         throw error("Expected Math sign");

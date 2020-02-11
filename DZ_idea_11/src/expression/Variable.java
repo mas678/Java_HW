@@ -58,11 +58,14 @@ public class Variable implements CommonExpression {
     }
 
     public int hashCode() {
-        return var.hashCode() * 313;
+        return var.hashCode();
     }
 
     @Override
-    public int evaluate(int x, int y, int z) {
+    public int evaluate(int x, int y, int z) throws Exception {
+        if (!VARIABLES.containsKey(var)) {
+            throw new Exception("Wrong variable");
+        }
         return List.of(x, y, z).get(VARIABLES.get(var));
     }
 }

@@ -27,8 +27,7 @@ public abstract class AbstractBinaryOperation implements CommonExpression, Binar
 
     void bracketNeeding(StringBuilder into, CommonExpression exp, boolean isSecond) {
         String end = "";
-        if (getLevel() > exp.getLevel()
-                || (getOrder() && getLevel() == exp.getLevel() && isSecond))  {
+        if (getLevel() > exp.getLevel() || (getOrder() && getLevel() == exp.getLevel() && isSecond))  {
             into.append('(');
             end = ")";
         }
@@ -65,17 +64,16 @@ public abstract class AbstractBinaryOperation implements CommonExpression, Binar
     }
 
     @Override
+    public int hashCode() {
+        return (31 * firstExpression.hashCode() + secondExpression.hashCode()) * 31 + getClass().hashCode();
+    }
+    @Override
     public int evaluate(int x) {
         return function(firstExpression.evaluate(x), secondExpression.evaluate(x));
     }
 
     @Override
-    public int evaluate(int x, int y, int z) {
+    public int evaluate(int x, int y, int z) throws Exception {
         return function(firstExpression.evaluate(x, y, z), secondExpression.evaluate(x, y, z));
-    }
-
-    @Override
-    public int hashCode() {
-        return 57 * firstExpression.hashCode() + 57 * 57 * secondExpression.hashCode() + getClass().hashCode();
     }
 }
