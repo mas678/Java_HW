@@ -2,9 +2,6 @@ package expression.parser;
 import expression.*;
 import expression.exceptions.*;
 
-import java.util.List;
-import java.util.Map;
-
 public class ExpressionParser extends BaseParser implements Parser {
     private final int bracketLevel = -1;
     private BinaryParserConst currentOperation;
@@ -100,19 +97,20 @@ public class ExpressionParser extends BaseParser implements Parser {
 
     private BinaryParserConst parseBinaryOperation() {
         skipWhitespace();
-        for (Map.Entry<Character, List<BinaryParserConst>> entry : ExpressionMaps.BINARY_OPERATIONS.entrySet()) {
-            if (test(entry.getKey())) {
-                for (BinaryParserConst temp: entry.getValue()) {
-                    if (temp.end.length() == 0) {
-                        return temp;
-                    }
-                    if (test(temp.end.charAt(0))) {
-                        expect(temp.end.substring(1));
-                        return temp;
-                    }
-                }
-                return null;
+        if (test('*')) {
+            if (test('*')) {
+                return new BinaryParserConst(4, CheckedPower::new, "*");
             }
+            return new BinaryParserConst(3, CheckedMultiply::new, "");
+        } else if (test('/')) {
+            if (test('/')) {
+                return new BinaryParserConst(4, CheckedLogarithm::new, "*");
+            }
+            return new BinaryParserConst(3, CheckedDivide::new, "");
+        } else if (test('+')) {
+            return new BinaryParserConst(2, CheckedAdd::new, "");
+        } else if (test('-')) {
+            return new BinaryParserConst(2, CheckedSubtract::new, "");
         }
         return null;
     }
