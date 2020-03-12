@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="386f444b-f68e-4ee1-819a-f0d997556bbe" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/out/production/12/expression/parser/ExpressionParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/12/expression/parser/ExpressionParser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/expression/parser/ExpressionParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/expression/parser/ExpressionParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,7 +28,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Lab3 -  Ringworm" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -128,6 +127,8 @@
       <workItem from="1581022823835" duration="2336000" />
       <workItem from="1581368678801" duration="663000" />
       <workItem from="1581436780081" duration="67000" />
+      <workItem from="1582118758991" duration="129000" />
+      <workItem from="1582701719029" duration="31000" />
     </task>
     <task id="LOCAL-00001" summary="Full done job (without new modification)">
       <created>1576534031068</created>
@@ -174,6 +175,11 @@
           <url>file://$PROJECT_DIR$/src/Main.java</url>
           <line>8</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/expression/parser/ExpressionParser.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
