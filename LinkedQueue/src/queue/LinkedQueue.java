@@ -10,11 +10,11 @@ public class LinkedQueue extends AbstractQueue {
     public void enqueue(Object element) {
         assert element != null;
 
-        size++;
         tail = new Node(element, tail);
-        if (head == null) {
+        if (isEmpty()) {
             head = tail;
         }
+        size++;
     }
 
     @Override
@@ -41,50 +41,28 @@ public class LinkedQueue extends AbstractQueue {
         tail = null;
     }
 
-    @Override
-    public void removeIf(Predicate<Object> predicate) {
-        Node temp = head;
-        Node prev = null;
-        size = 0;
-        while (temp != null) {
-            if (!predicate.test(temp.value)) {
-                size++;
-                if (prev != null) {
-                    prev.next = temp;
-                } else {
-                    head = temp;
-                }
-                prev = temp;
-            }
-            temp = temp.next;
-        }
-        tail = prev;
-    }
-
-    @Override
-    public void retainIf(Predicate<Object> predicate) {
-        removeIf(predicate.negate());
-    }
 
     @Override
     public void takeWhile(Predicate<Object> predicate) {
         Node temp = head;
+        head = null;
+        tail = null;
         size = 0;
         while (temp != null && predicate.test(temp.value)) {
+            if (head == null) {
+                head = temp;
+            }
             size++;
             tail = temp;
             temp = temp.next;
         }
+        tailEnd();
     }
 
-    @Override
-    public void dropWhile(Predicate<Object> predicate) {
-        Node temp = head;
-        while (temp != null && predicate.test(temp.value)) {
-            size--;
-            temp = temp.next;
+    private void tailEnd() {
+        if (size != 0) {
+            tail.next = null;
         }
-        head = temp;
     }
 
     private class Node {

@@ -1,7 +1,5 @@
 package queue;
 
-import java.util.function.Predicate;
-
 public class ArrayQueue {
     // inv: n >= 0 ∧ ∀i=1..n' : a[i] ≠ null
 

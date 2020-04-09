@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="51b175a5-093a-4b63-aaeb-c8c073ac2c4b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZNVJfN5yCNQJT6wWrrNDWxOxeF" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path" value="node" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\3-q3\Desktop\Korneev\DZ_withoutGit\Help_us\src\paradigms-2020\javascript" />
+      <recent name="C:\Users\3-q3\Desktop\Korneev\DZ_withoutGit\Help_us\src\paradigms-2020\javascript\jstest" />
+      <recent name="C:\Users\3-q3\Desktop\Korneev\DZ_withoutGit\Help_us\src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\3-q3\Desktop\Korneev\DZ_withoutGit\Help_us\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.RunJS">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Help_us" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RunJS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RunJS" />
+      <module name="Help_us" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="NodeJSConfigurationType" path-to-node="$PROJECT_DIR$/src/paradigms-2020/javascript/functionalExpression.js" nameIsGenerated="true" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.RunJS" />
+      <item itemvalue="Node.js.Unnamed" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.RunJS" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="51b175a5-093a-4b63-aaeb-c8c073ac2c4b" name="Default Changelist" comment="" />
+      <created>1584679467353</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584679467353</updated>
+      <workItem from="1584679469829" duration="51000" />
+      <workItem from="1584893335970" duration="1869000" />
+      <workItem from="1585240756223" duration="16332000" />
+      <workItem from="1585399470463" duration="39000" />
+      <workItem from="1585905248328" duration="5799000" />
+      <workItem from="1586445571087" duration="1503000" />
+      <workItem from="1586468607238" duration="829000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="275" y="22" key="#Inspections" timestamp="1585245736963">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="22" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1585245736963" />
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584894328473">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1584894328473" />
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584893713019">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1584893713019" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1586445786383">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1586445786383" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1585913053712">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585913053712" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1585913053712">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585913053712" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1585913053712">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585913053712" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1585913053712">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585913053712" />
+    <state x="313" y="217" key="Performance.Activity.Monitor" timestamp="1584679479974">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="313" y="217" key="Performance.Activity.Monitor/0.0.1366.728@0.0.1366.728" timestamp="1584679479974" />
+    <state x="379" y="376" key="com.intellij.ide.util.TipDialog" timestamp="1586445621129">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="376" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1586445621129" />
+    <state x="400" y="172" key="jetbrains.nodejs.interpreters-dialog" timestamp="1584894324542">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="400" y="172" key="jetbrains.nodejs.interpreters-dialog/0.0.1366.728@0.0.1366.728" timestamp="1584894324542" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1585255426780">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1585255426780" />
+  </component>
+</project>

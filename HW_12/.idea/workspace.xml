@@ -2,9 +2,141 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="386f444b-f68e-4ee1-819a-f0d997556bbe" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../BinarySearch/BinarySearch.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generics/Generics.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generics/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generics/src/base/Asserts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generics/src/base/MainChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generics/src/base/MainFilesChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generics/src/base/MainStdChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generics/src/base/Pair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generics/src/base/Randomized.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generics/src/base/TestCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generics/src/expression/Abs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generics/src/expression/AbstractBinaryOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generics/src/expression/AbstractUnaryOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generics/src/expression/Add.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generics/src/expression/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generics/src/expression/BinaryFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generics/src/expression/CommonExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generics/src/expression/Const.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generics/src/expression/Divide.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generics/src/expression/Expression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generics/src/expression/ExpressionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generics/src/expression/Logarithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generics/src/expression/Multiply.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generics/src/expression/Negate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generics/src/expression/Power.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generics/src/expression/ShiftLeft.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generics/src/expression/ShiftRight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generics/src/expression/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generics/src/expression/Subtract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generics/src/expression/TripleExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generics/src/expression/TripleExpressionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generics/src/expression/UnaryFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generics/src/expression/Variable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generics/src/expression/exceptions/CheckedAdd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generics/src/expression/exceptions/CheckedDivide.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generics/src/expression/exceptions/CheckedLogarithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generics/src/expression/exceptions/CheckedMultiply.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generics/src/expression/exceptions/CheckedNegate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generics/src/expression/exceptions/CheckedPower.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generics/src/expression/exceptions/CheckedSubtract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generics/src/expression/exceptions/ExceptionsPowLog2Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generics/src/expression/exceptions/ExceptionsPowLogTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generics/src/expression/exceptions/ExceptionsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generics/src/expression/exceptions/MathException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generics/src/expression/parser/BaseParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generics/src/expression/parser/BinaryParserConst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generics/src/expression/parser/Either.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generics/src/expression/parser/ExpressionException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generics/src/expression/parser/ExpressionMaps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generics/src/expression/parser/ExpressionParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generics/src/expression/parser/ExpressionSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generics/src/expression/parser/Parser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generics/src/expression/parser/ParserAbsSquareTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generics/src/expression/parser/ParserReverseDigitsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generics/src/expression/parser/ParserShiftsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generics/src/expression/parser/ParserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generics/src/expression/parser/StringSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generics/src/expression/parser/TwoVariables.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LinkedQueue/LinkedQueue.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LinkedQueue/src/queue/QueueIfWhileTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Queue/Queue.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Queue/src/base/MainChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java_script/java_script.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parserjs/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parserjs/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parserjs/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parserjs/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parserjs/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parserjs/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parserjs/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parserjs/parserjs.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parserjs/src/base/Asserts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parserjs/src/base/MainChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parserjs/src/base/MainFilesChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parserjs/src/base/Randomized.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parserjs/src/base/TestCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parserjs/src/base/Triple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parserjs/src/expression/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parserjs/src/expression/ToMiniString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parserjs/src/expression/TripleExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parserjs/src/expression/parser/Either.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parserjs/src/javascript/RunJS.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parserjs/src/javascript/RunJS.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parserjs/src/javascript/RunJS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parserjs/src/javascript/RunJS.node.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parserjs/src/javascript/RunJS.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parserjs/src/javascript/TestJS.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parserjs/src/javascript/TestJS.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parserjs/src/javascript/examples.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parserjs/src/javascript/examples/0_1_magic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parserjs/src/javascript/examples/1_1_types.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parserjs/src/javascript/examples/1_2_functions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parserjs/src/javascript/examples/1_3_functions-hi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parserjs/src/javascript/examples/1_4_vectors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parserjs/src/javascript/examples/2_1_objects.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parserjs/src/javascript/functionalExpression.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parserjs/src/javascript/functionalMiniExpression.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parserjs/src/javascript/graal/asm-7.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parserjs/src/javascript/graal/asm-analysis-7.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parserjs/src/javascript/graal/asm-commons-7.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parserjs/src/javascript/graal/asm-tree-7.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parserjs/src/javascript/graal/asm-util-7.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parserjs/src/javascript/graal/graal-sdk.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parserjs/src/javascript/graal/graaljs-launcher.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parserjs/src/javascript/graal/icu4j.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parserjs/src/javascript/graal/js-20.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parserjs/src/javascript/graal/js-scriptengine-20.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parserjs/src/javascript/graal/launcher-common.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parserjs/src/javascript/graal/tregex.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parserjs/src/javascript/graal/truffle-api.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parserjs/src/javascript/jstest/AbstractTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parserjs/src/javascript/jstest/ArithmeticTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parserjs/src/javascript/jstest/BaseJavascriptTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parserjs/src/javascript/jstest/Engine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parserjs/src/javascript/jstest/EngineException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parserjs/src/javascript/jstest/JSEngine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parserjs/src/javascript/jstest/Language.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parserjs/src/javascript/jstest/VariablesTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parserjs/src/javascript/jstest/functional/FunctionalCubeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parserjs/src/javascript/jstest/functional/FunctionalExpressionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parserjs/src/javascript/jstest/functional/FunctionalMiniTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parserjs/src/javascript/jstest/functional/FunctionalPieAvgMedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parserjs/src/javascript/jstest/functional/FunctionalPieSinCosTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parserjs/src/javascript/jstest/functional/FunctionalPieTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parserjs/src/javascript/jstest/object/ObjectExpressionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LinkedQueue/src/queue/AbstractQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LinkedQueue/src/queue/AbstractQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LinkedQueue/src/queue/ArrayQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LinkedQueue/src/queue/ArrayQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LinkedQueue/src/queue/LinkedQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LinkedQueue/src/queue/LinkedQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Queue/src/queue/AbstractQueue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Queue/src/queue/ArrayQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Queue/src/queue/ArrayQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Queue/src/queue/LinkedQueue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Queue/src/queue/Queue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Queue/src/queue/QueueIfWhileTest.java" beforeDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,12 +155,17 @@
   </component>
   <component name="ProjectId" id="1UlTnxQSnMJtZcT0SUqyNG7dBZa" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Lab3 -  Ringworm" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -45,18 +182,6 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\3-q3\Desktop\Korneev\DZ\12\src" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Application.ReverseAndDigits">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -129,6 +254,8 @@
       <workItem from="1581436780081" duration="67000" />
       <workItem from="1582118758991" duration="129000" />
       <workItem from="1582701719029" duration="31000" />
+      <workItem from="1584050168598" duration="30000" />
+      <workItem from="1585401085933" duration="5237000" />
     </task>
     <task id="LOCAL-00001" summary="Full done job (without new modification)">
       <created>1576534031068</created>
@@ -167,6 +294,12 @@
     <MESSAGE value="Full done job (without new modification)" />
     <MESSAGE value="Some abstract classes and refactoring" />
     <option name="LAST_COMMIT_MESSAGE" value="Some abstract classes and refactoring" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1584050189392">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1584050189392" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
