@@ -1,7 +1,147 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="51b175a5-093a-4b63-aaeb-c8c073ac2c4b" name="Default Changelist" comment="" />
+    <list default="true" id="51b175a5-093a-4b63-aaeb-c8c073ac2c4b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paradigms-2020/javascript/jstest/object/ObjectGaussTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW_12/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HW_12/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/META-INF/Help_us.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/RunJS$IO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/RunJS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/base/Asserts.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/base/MainChecker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/base/MainFilesChecker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/base/Randomized.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/base/TestCounter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/base/Triple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/expression/BaseTest$Op.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/expression/BaseTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/expression/ToMiniString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/expression/TripleExpression.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/expression/exceptions/Parser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/expression/generic/Tabulator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/expression/parser/Either$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/expression/parser/Either$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/expression/parser/Either.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/jstest/AbstractTests$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/jstest/AbstractTests$AbstractExpression.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/jstest/AbstractTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/jstest/ArithmeticTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/jstest/BaseJavascriptTest$Dialect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/jstest/BaseJavascriptTest$Expr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/jstest/BaseJavascriptTest$Operator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/jstest/BaseJavascriptTest$TExpr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/jstest/BaseJavascriptTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/jstest/Engine$Result.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/jstest/Engine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/jstest/EngineException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/jstest/JSEngine$IO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/jstest/JSEngine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/jstest/Language.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/jstest/VariablesTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/jstest/functional/FunctionalCubeTest$CubeTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/jstest/functional/FunctionalCubeTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/jstest/functional/FunctionalExpressionTest$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/jstest/functional/FunctionalExpressionTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/jstest/functional/FunctionalMiniTest$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/jstest/functional/FunctionalMiniTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/jstest/functional/FunctionalOneIffAbsTest$IffAbsTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/jstest/functional/FunctionalOneIffAbsTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/jstest/functional/FunctionalOneTwoTest$OneTwoTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/jstest/functional/FunctionalOneTwoTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/jstest/functional/FunctionalPieAvgMedTest$PieAvgMedTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/jstest/functional/FunctionalPieAvgMedTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/jstest/functional/FunctionalPieSinCosTest$SinCosTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/jstest/functional/FunctionalPieSinCosTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/jstest/functional/FunctionalPieTest$PieTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/jstest/functional/FunctionalPieTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/jstest/object/ObjectExpressionTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/paradigms-2020/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/paradigms-2020/artifacts/queue/ArrayQueueDequeTest.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/paradigms-2020/artifacts/queue/ArrayQueueIndexedDequeTest.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/paradigms-2020/artifacts/queue/ArrayQueueTest.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/paradigms-2020/artifacts/queue/ArrayQueueToArrayTest.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/paradigms-2020/artifacts/queue/ArrayQueueToStrTest.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/paradigms-2020/artifacts/queue/QueueFunctionsTest.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/paradigms-2020/artifacts/queue/QueueIfWhileTest.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/paradigms-2020/artifacts/queue/QueueTest.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/paradigms-2020/artifacts/queue/QueueToArrayTest.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/paradigms-2020/artifacts/search/BinarySearchMissingTest.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/paradigms-2020/artifacts/search/BinarySearchShiftTest.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/paradigms-2020/artifacts/search/BinarySearchSpanTest.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/paradigms-2020/artifacts/search/BinarySearchTest.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/paradigms-2020/javascript/RunJS.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/paradigms-2020/javascript/RunJS.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/paradigms-2020/javascript/RunJS.node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/paradigms-2020/javascript/RunJS.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/paradigms-2020/javascript/TestJS.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/paradigms-2020/javascript/TestJS.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/paradigms-2020/javascript/examples.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/paradigms-2020/javascript/examples/0_1_magic.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/paradigms-2020/javascript/examples/1_1_types.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/paradigms-2020/javascript/examples/1_2_functions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/paradigms-2020/javascript/examples/1_3_functions-hi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/paradigms-2020/javascript/examples/1_4_vectors.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/paradigms-2020/javascript/examples/2_1_objects.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/paradigms-2020/javascript/functionalExpression.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/paradigms-2020/javascript/functionalMiniExpression.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/paradigms-2020/javascript/graal/asm-7.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/paradigms-2020/javascript/graal/asm-analysis-7.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/paradigms-2020/javascript/graal/asm-commons-7.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/paradigms-2020/javascript/graal/asm-tree-7.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/paradigms-2020/javascript/graal/asm-util-7.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/paradigms-2020/javascript/graal/graal-sdk.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/paradigms-2020/javascript/graal/graaljs-launcher.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/paradigms-2020/javascript/graal/icu4j.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/paradigms-2020/javascript/graal/js-20.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/paradigms-2020/javascript/graal/js-scriptengine-20.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/paradigms-2020/javascript/graal/launcher-common.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/paradigms-2020/javascript/graal/tregex.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/paradigms-2020/javascript/graal/truffle-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/paradigms-2020/javascript/objectExpression.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/paradigms-2020/javascript/TestObjJS.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/queue/ArrayQueueDequeTest$QueueDeque.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/queue/ArrayQueueDequeTest$ReferenceQueueDeque.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/queue/ArrayQueueDequeTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/queue/ArrayQueueIndexedDequeTest$IndexedDeque.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/queue/ArrayQueueIndexedDequeTest$ReferenceIndexedDeque.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/queue/ArrayQueueIndexedDequeTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/queue/ArrayQueueTest$Queue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/queue/ArrayQueueTest$ReferenceQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/queue/ArrayQueueTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/queue/ArrayQueueToArrayTest$ReferenceToArrayQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/queue/ArrayQueueToArrayTest$ToArrayQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/queue/ArrayQueueToArrayTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/queue/ArrayQueueToStrTest$ReferenceToStrQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/queue/ArrayQueueToStrTest$ToStrQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/queue/ArrayQueueToStrTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/queue/QueueFunctionsTest$QueueFunctions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/queue/QueueFunctionsTest$ReferenceQueueFunctions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/queue/QueueFunctionsTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/queue/QueueIfWhileTest$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/queue/QueueIfWhileTest$QueueIfWhile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/queue/QueueIfWhileTest$ReferenceQueueIfWhile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/queue/QueueIfWhileTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/queue/QueueTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/queue/QueueToArrayTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/queue/ReflectionTest$IMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/queue/ReflectionTest$Mode$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/queue/ReflectionTest$Mode$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/queue/ReflectionTest$Mode$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/queue/ReflectionTest$Mode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/queue/ReflectionTest$ProxyFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/queue/ReflectionTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/search/BinarySearchBaseTest$Solver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/search/BinarySearchBaseTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/search/BinarySearchMissingTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/search/BinarySearchShiftTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/search/BinarySearchSpanTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Help_us/search/BinarySearchTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/paradigms-2020/javascript/functionalExpression.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/paradigms-2020/javascript/functionalExpression.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/paradigms-2020/javascript/jstest/object/ObjectExpressionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/paradigms-2020/javascript/jstest/object/ObjectExpressionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/paradigms-2020/javascript/objectExpression.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/paradigms-2020/javascript/objectExpression.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,13 +154,18 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1ZNVJfN5yCNQJT6wWrrNDWxOxeF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -91,6 +236,14 @@
       <workItem from="1585905248328" duration="5799000" />
       <workItem from="1586445571087" duration="1503000" />
       <workItem from="1586468607238" duration="829000" />
+      <workItem from="1586507537070" duration="3799000" />
+      <workItem from="1586511484432" duration="769000" />
+      <workItem from="1586512397740" duration="8009000" />
+      <workItem from="1586625677053" duration="250000" />
+      <workItem from="1586752350304" duration="1342000" />
+      <workItem from="1587119774027" duration="535000" />
+      <workItem from="1587122570706" duration="275000" />
+      <workItem from="1587451295714" duration="26000" />
     </task>
     <servers />
   </component>
@@ -110,10 +263,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1584893713019" />
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1586445786383">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1587451317251">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1586445786383" />
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1587451317251" />
     <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1585913053712">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -134,10 +287,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="313" y="217" key="Performance.Activity.Monitor/0.0.1366.728@0.0.1366.728" timestamp="1584679479974" />
-    <state x="379" y="376" key="com.intellij.ide.util.TipDialog" timestamp="1586445621129">
+    <state x="379" y="376" key="com.intellij.ide.util.TipDialog" timestamp="1587451296766">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="376" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1586445621129" />
+    <state x="379" y="376" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1587451296766" />
     <state x="400" y="172" key="jetbrains.nodejs.interpreters-dialog" timestamp="1584894324542">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -146,5 +299,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1585255426780" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1586508827381">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1586508827381" />
   </component>
 </project>

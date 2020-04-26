@@ -8,7 +8,10 @@ const polyExpression = func => {
 
 const cnst = value => x => value;
 const variables = {x : 0, y : 1, z : 2};
-const variable = (variable) => (...args) => (args[variables[variable]]);
+const variable = (variable) => {
+    let index = variables[variable];
+    return (...args) => (args[index]);
+};
 const negate = polyExpression((a) => -a);
 const add = polyExpression((a, b) => a + b);
 const subtract = polyExpression((a, b) => a - b);
