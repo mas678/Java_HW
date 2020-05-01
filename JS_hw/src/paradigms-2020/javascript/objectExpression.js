@@ -1,20 +1,22 @@
 "use strict";
 
+function creator(constructor, evaluate, diff, toString, toArray) {
+    constructor.prototype.evaluate = evaluate;
+    constructor.prototype.diff = diff;
+    constructor.prototype.toString = toString;
+    constructor.prototype.toArray = toArray;
+}
+
 function Const(number) {
     this._number = number;
 }
-Const.prototype.evaluate = function (...args) {
-    return this._number
-};
-Const.prototype.diff = function (varName) {
-    return Const.ZERO;
-};
-Const.prototype.toString = function () {
-    return this._number + "";
-};
-Const.prototype.toArray = function () {
-    return [this._number];
-};
+creator(
+    Const,
+    function (...args) {return this._number},
+    function (varName) {return Const.ZERO;},
+    function () {return this._number + "";},
+    function () {return [this._number];}
+);
 Const.ZERO = new Const(0);
 Const.ONE = new Const(1);
 Const.TWO = new Const(2);
@@ -25,44 +27,47 @@ function Variable (variable) {
     this._variable = variable;
     this._index = variables[variable];
 }
-    Variable.prototype.evaluate = function (...args) {
-    return args[this._index]
-};
-Variable.prototype.diff = function (varName) {
-    return varName === this._variable ? Const.ONE : Const.ZERO;
-};
-Variable.prototype.toString = function () {
-    return this._variable;
-};
-Variable.prototype.toArray = function () {
-    return new Array(this._variable);
-};
+creator(
+    Variable,
+    function (...args) {return args[this._index]},
+function (varName) {return varName === this._variable ? Const.ONE : Const.ZERO;},
+    function () {return this._variable;},
+    function () {return new Array(this._variable);}
+);
 
+function Expression (...args) {
+    this._args = args;
+}
 
-function makeFunc (sign, func, toDiff){
-    let AbstractOperation = function (...args) {
-        this._args = args;
-    };
-    AbstractOperation.prototype._sign = sign;
-    AbstractOperation.prototype.func = func;
-    AbstractOperation.prototype.length = func.length;
-    AbstractOperation.prototype._toDiff = toDiff;
-    AbstractOperation.prototype.evaluate = function (...args) {
+creator(
+    Expression,
+    function (...args) {
         return this.func(...this._args.map(arg => arg.evaluate(...args)))
-    };
-    AbstractOperation.prototype.diff = function (varName) {
+    },
+function (varName) {
         return this._toDiff(...this._args, ...this._args.map(arg => arg.diff(varName)))
-    };
-    AbstractOperation.prototype.toString = function () {
+    },
+    function () {
         let arr = this.toArray();
         return arr.join(" ");
-    };
-    AbstractOperation.prototype.toArray = function () {
+    },
+    function () {
         let arr = ((this._args.map(element => (element.toArray())))
             .reduce((last, cur) => [...last, ...cur]));
         arr.push(this._sign);
         return arr;
+    }
+);
+
+function makeFunc (sign, func, toDiff){
+    let AbstractOperation = function(...args) {
+        Expression.call(this, ...args);
     };
+    AbstractOperation.prototype = Object.create(Expression.prototype);
+    AbstractOperation.prototype._sign = sign;
+    AbstractOperation.prototype.func = func;
+    AbstractOperation.prototype.length = func.length;
+    AbstractOperation.prototype._toDiff = toDiff;
     return AbstractOperation;
 }
 
@@ -72,19 +77,21 @@ const Subtract = makeFunc("-", (a, b) => a - b, (a, b, da, db) => new Subtract(d
 const Multiply = makeFunc("*", (a, b) => a * b,
     (a, b, da, db)  => new Add(new Multiply(a, db), new Multiply(b, da)));
 const Divide = makeFunc("/", (a, b) => a / b,
-    (a, b, da, db)  => new Divide(new Subtract(new Multiply(da, b), new Multiply(a, db)), new Multiply(b, b)));const Gauss = makeFunc("gauss", (a, b, c, x) => a * Math.exp(-(x - b) * (x - b)/(2 * c * c)),
-    (a, b, c, x, da, db, dc, dx) =>
-        new Add(
+    (a, b, da, db)  => new Divide(new Subtract(new Multiply(da, b), new Multiply(a, db)), new Multiply(b, b)));
+const Gauss = makeFunc("gauss", (a, b, c, x) => a * Math.exp(-(x - b) * (x - b)/(2 * c * c)),
+    (a, b, c, x, da, db, dc, dx) => {
+        let subXB = new Subtract(x, b);
+        let mulSubSmt = (smt) => new Multiply(
+            subXB, smt);
+        return new Add(
             new Gauss(da, b, c, x),
             new Multiply(
                 new Gauss(a, b, c, x),
-                    new Divide(
-                        new Subtract(
-                            new Multiply(new Multiply(c, dc), new Multiply(
-                                new Subtract(x, b), new Subtract(x, b))),
-                            new Multiply(new Multiply(c, c), new Multiply(
-                                new Subtract(x, b), new Subtract(dx, db)))),
-                        new Multiply(new Multiply(c, c), new Multiply(c, c))))));
+                new Divide(
+                    new Subtract(
+                        new Multiply(new Multiply(c, dc), mulSubSmt(subXB)),
+                        new Multiply(new Multiply(c, c), mulSubSmt(new Subtract(dx, db)))),
+                    new Multiply(new Multiply(c, c), new Multiply(c, c)))))});
 
 
 
